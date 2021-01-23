@@ -3,7 +3,6 @@ get_header(); ?>
 
 <!-- content -->
 <div class="content">
-<h1>test</h1>
 	<?php get_template_part('template-parts/parts-main-page/flawless_skatepark'); ?>
 	<?php get_template_part('template-parts/parts-main-page/social_tasks'); ?>
 	<?php get_template_part('template-parts/parts-main-page/skatepark_in_numbers'); ?>
