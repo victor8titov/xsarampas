@@ -1,0 +1,71 @@
+@import './color';
+
+html {
+  font-size: 10px;
+}
+
+html body {
+  font-family: "Courier New", monospace;
+  font-size: 1rem;
+  color: $main;
+
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+  }
+
+  a {
+    font-family: "open sans", sans-serif;
+    font-size: 1.4rem;
+    color: $main;
+    text-decoration: underline;
+
+    &:hover {
+      color: $blueLink;
+    }
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 3.6rem;
+    color: $blue;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+  }
+
+  h4 {
+    font-size: 1.8rem;
+  }
+
+  h5 {
+    font-size: 1.6rem;
+  }
+
+  h6 {
+    font-size: 1.4rem;
+    font-style: italic;
+    color: $blue;
+  }
+
+  li {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+  }
+}
+
+.font-helvetica {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.font-open_sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.font-monospace {
+  font-family: "Courier New", monospace;
+}

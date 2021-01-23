@@ -1,6 +1,10 @@
+//		проблема!
+//		не определяется переменная при инициализации jquery
+//		делаем это в ручную.
+var $ = jQuery;
 $(document).ready(function() {
 	
-	$(".wpcf7-form-control-wrap.your-phone input[name='your-phone']").mask("+7(999)999-99-99");
+	//$(".wpcf7-form-control-wrap.your-phone input[name='your-phone']").mask("+7(999)999-99-99");
 	
 	$(".flexslider").flexslider({
 		animation: 'slide',
@@ -35,10 +39,10 @@ $(document).ready(function() {
 		'overlayColor'  :  '#000'
 	});
 	
-	$('.page-city-gallery').slick({
+/* 	$('.page-city-gallery').slick({
 	  arrows: true,
 	});
-
+ */
 	function toggleSeoMenu() {
 		var button = document.querySelector('.seo-menu-toggler');
 		if (button) {

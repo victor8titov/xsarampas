@@ -1,0 +1,1386 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0; }
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none; }
+
+html {
+  font-size: 10px; }
+
+html body {
+  font-family: "Courier New", monospace;
+  font-size: 1rem;
+  color: #000000; }
+  html body p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem; }
+  html body a {
+    font-family: "open sans", sans-serif;
+    font-size: 1.4rem;
+    color: #000000;
+    text-decoration: underline; }
+    html body a:hover {
+      color: #428bca; }
+  html body h1 {
+    font-size: 1.4rem; }
+  html body h2 {
+    font-size: 3.6rem;
+    color: #1bb7ee; }
+  html body h3 {
+    font-size: 2.4rem; }
+  html body h4 {
+    font-size: 1.8rem; }
+  html body h5 {
+    font-size: 1.6rem; }
+  html body h6 {
+    font-size: 1.4rem;
+    font-style: italic;
+    color: #1bb7ee; }
+  html body li {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem; }
+
+.font-helvetica, .footer__small-line-right-side a, .type_clients__title h5, .about_skatepark h3, .about_skatepark p, .about_skatepark__title h2, .about_skatepark__line-before h3, .about_skatepark__line-after h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.font-open_sans, .type_clients__body div h6 {
+  font-family: "Open Sans", sans-serif; }
+
+.font-monospace, .our_projects div ul li {
+  font-family: "Courier New", monospace; }
+
+body .xsa-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 30px;
+  font-size: 1.4rem;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #1bb7ee;
+  border: 0;
+  border-radius: 0;
+  box-shadow: 0 1px 4px 0 #00000099;
+  transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s; }
+  body .xsa-button:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    background-color: #000000;
+    text-decoration-color: #428bca; }
+
+.xsa-button_inside-text {
+  padding: 9px 52px;
+  box-shadow: none; }
+  .xsa-button_inside-text:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #1bb7ee; }
+
+.xsa-button_p-10 {
+  padding: 14px 15px; }
+
+.shadow_after_box {
+  position: absolute;
+  right: 100px;
+  bottom: 0;
+  left: 100px;
+  height: 29px;
+  background-image: url(/wp-content/themes/xsarampas/assets/images/fade_line.png);
+  background-position: 0 58px; }
+  .shadow_after_box::before, .shadow_after_box::after {
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 29px;
+    content: "";
+    background-image: url(/wp-content/themes/xsarampas/assets/images/fade_line.png); }
+  .shadow_after_box::before {
+    left: -100px;
+    background-position: 0 -87px; }
+  .shadow_after_box::after {
+    right: -100px;
+    background-position: 100% -87px; }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #ffffff;
+  border: 1px solid #bfbfbf; }
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px; } }
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px; } }
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px; } }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px; } }
+
+.menu-oneline {
+  position: relative;
+  width: 100%;
+  margin-top: 54px;
+  border-top: 1px solid #bfbfbf; }
+  .menu-oneline ul {
+    display: flex;
+    justify-content: center;
+    margin: 0; }
+    .menu-oneline ul li {
+      position: relative; }
+      .menu-oneline ul li a {
+        display: inline-block;
+        padding: 27px 9px 27px 10px;
+        text-decoration: none; }
+        .menu-oneline ul li a:hover {
+          text-decoration: underline; }
+      .menu-oneline ul li:hover > .menu-oneline__sub-menu {
+        display: block;
+        opacity: 1; }
+    .menu-oneline ul .menu-oneline__sub-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 10;
+      display: none;
+      min-width: 250px;
+      padding: 0 10px 10px 10px;
+      background-color: #ffffff;
+      border-right: 1px solid #1bb7ee;
+      border-bottom: 1px solid #1bb7ee;
+      border-left: 1px solid #1bb7ee;
+      outline: 0;
+      opacity: 0;
+      transition: opacity 300ms ease-in-out; }
+      .menu-oneline ul .menu-oneline__sub-menu li {
+        display: inline-block;
+        width: 100%;
+        padding: 0;
+        margin: 0; }
+      .menu-oneline ul .menu-oneline__sub-menu a {
+        display: inline-block;
+        padding: 10px;
+        font-size: 1.3rem;
+        text-align: left; }
+  .menu-oneline::after {
+    position: absolute;
+    right: 14px;
+    bottom: 0;
+    left: 14px;
+    height: 0;
+    content: '';
+    border-top: 1px solid #bfbfbf; }
+
+.menu-oneline_footer ul li a {
+  padding: 27px 12px 17px 11px;
+  text-decoration: none; }
+  .menu-oneline_footer ul li a:hover {
+    text-decoration: none; }
+
+.menu-oneline_footer ul li:hover > .menu-oneline__sub-menu {
+  display: none;
+  opacity: 0; }
+
+.menu-oneline_footer::after {
+  display: none; }
+
+@media (max-width: 992px) {
+  .menu-oneline__sub-menu li a {
+    padding: 5px; }
+  .menu-oneline ul {
+    flex-wrap: wrap; }
+    .menu-oneline ul li {
+      position: relative; }
+      .menu-oneline ul li a {
+        padding: 27px 5px 27px; } }
+
+@media (max-width: 768px) {
+  .menu-oneline {
+    padding-right: 15px;
+    padding-left: 15px; } }
+
+@media (max-width: 576px) {
+  .menu-oneline ul li {
+    width: 150px;
+    text-align: center; }
+    .menu-oneline ul li:hover > .menu-oneline__sub-menu {
+      display: none;
+      opacity: 0; } }
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  margin-right: -15px;
+  margin-left: -15px; }
+  .header__left-side {
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+    padding-right: 15px;
+    text-align: right; }
+    .header__left-side h4,
+    .header__left-side h6 {
+      display: inline-block;
+      max-width: 170px;
+      margin: 0; }
+  .header__middle {
+    display: flex;
+    flex-basis: 33.333%;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 33.333%;
+    text-align: center; }
+    .header__middle h1 {
+      margin: 0; }
+    .header__middle a {
+      display: inline-block; }
+      .header__middle a img {
+        width: 100%;
+        max-width: 2.2rem;
+        max-height: 2.2rem; }
+    .header__middle .header__img-logo {
+      display: inline-block; }
+      .header__middle .header__img-logo img {
+        width: 100%;
+        max-width: 12.5rem;
+        max-height: 6.8rem; }
+  .header__right-side {
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+    padding-left: 15px;
+    text-align: left; }
+    .header__right-side h4 {
+      font-size: 2.2rem; }
+
+@media (max-width: 992px) {
+  .header {
+    justify-content: space-around; }
+    .header__left-side, .header__right-side {
+      flex-basis: 45%;
+      max-width: 45%;
+      padding-right: 0;
+      padding-left: 0; }
+    .header__middle {
+      flex-basis: 100%;
+      order: -1;
+      max-width: 100%;
+      margin-bottom: 40px; }
+      .header__middle div img {
+        width: 44px;
+        max-width: 44px;
+        height: 44px;
+        max-height: 44px; } }
+
+@media (max-width: 576px) {
+  .header {
+    justify-content: space-around;
+    margin: 0; }
+    .header__left-side, .header__right-side {
+      flex-basis: 100%;
+      max-width: 100%;
+      margin-bottom: 20px;
+      text-align: center; }
+    .header__left-side h4,
+    .header__left-side h6 {
+      max-width: inherit; }
+    .header__middle {
+      flex-basis: 100%;
+      order: -1;
+      max-width: 100%;
+      margin-bottom: 40px; } }
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  margin-right: -15px;
+  margin-left: -15px; }
+  .footer__left-side {
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+    padding-right: 15px;
+    text-align: right; }
+    .footer__left-side h4,
+    .footer__left-side h6 {
+      display: inline-block;
+      max-width: 170px;
+      margin: 0; }
+  .footer__middle {
+    display: flex;
+    flex-basis: 33.333%;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 33.333%;
+    text-align: center; }
+    .footer__middle h1 {
+      margin: 0; }
+    .footer__middle a {
+      display: inline-block; }
+      .footer__middle a img {
+        width: 100%;
+        max-width: 2.2rem;
+        max-height: 2.2rem; }
+    .footer__middle .footer__img-logo {
+      display: inline-block; }
+      .footer__middle .footer__img-logo img {
+        width: 100%;
+        max-width: 12.5rem;
+        max-height: 6.8rem; }
+  .footer__right-side {
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+    padding-left: 15px;
+    text-align: left; }
+    .footer__right-side h4 {
+      font-size: 2.2rem; }
+  .footer__small-line-left-side, .footer__small-line-right-side {
+    margin-top: 48px;
+    margin-bottom: 15px; }
+    .footer__small-line-left-side span,
+    .footer__small-line-left-side a, .footer__small-line-right-side span,
+    .footer__small-line-right-side a {
+      font-size: 1.1rem;
+      text-decoration: none; }
+  .footer__small-line-left-side {
+    flex-basis: 66.6666%;
+    max-width: 66.6666%;
+    padding-left: 15px;
+    text-align: left; }
+  .footer__small-line-right-side {
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+    padding-right: 55px;
+    text-align: right; }
+    .footer__small-line-right-side a {
+      color: #428bca;
+      font-size: 1.4rem; }
+
+@media (max-width: 992px) {
+  .footer__right-side {
+    padding-right: 20px; } }
+
+@media (max-width: 768px) {
+  .footer__left-side, .footer__middle, .footer__right-side {
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    text-align: center; }
+  .footer__left-side {
+    padding-top: 30px;
+    border-top: 1px solid #bfbfbf; }
+    .footer__left-side h4,
+    .footer__left-side h6 {
+      max-width: inherit; } }
+
+.flawless-skatepark {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 35px; }
+  .flawless-skatepark img {
+    width: 60px; }
+  .flawless-skatepark h5 {
+    display: inline-block;
+    margin-bottom: 0;
+    color: #1bb7ee;
+    text-transform: uppercase;
+    border-bottom: 1px solid #1bb7ee; }
+  .flawless-skatepark p {
+    display: inline-block;
+    max-width: 182px;
+    margin: 0;
+    margin-top: 2px;
+    font-size: 1.2rem;
+    line-height: 1.6rem; }
+  .flawless-skatepark__title {
+    flex-basis: 100%;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 62px;
+    text-align: center; }
+    .flawless-skatepark__title h3 {
+      margin-bottom: 0; }
+    .flawless-skatepark__title h2 {
+      margin: 0; }
+  .flawless-skatepark__left-side {
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+    padding-right: 15px;
+    text-align: right; }
+    .flawless-skatepark__left-side > div {
+      display: flex;
+      align-items: top;
+      justify-content: flex-start;
+      margin-bottom: 55px;
+      text-align: left; }
+      .flawless-skatepark__left-side > div img {
+        margin: 13px 9px 0 15px; }
+  .flawless-skatepark__middle {
+    display: flex;
+    flex-basis: 33.333%;
+    align-items: center;
+    justify-content: center;
+    max-width: 33.333%;
+    text-align: center; }
+    .flawless-skatepark__middle img {
+      width: 250px; }
+  .flawless-skatepark__right-side {
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+    padding-left: 15px;
+    text-align: left; }
+    .flawless-skatepark__right-side > div {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      margin-bottom: 30px; }
+    .flawless-skatepark__right-side img {
+      margin: 0 15px 0 10px; }
+
+@media (max-width: 992px) {
+  .flawless-skatepark__right-side, .flawless-skatepark__left-side {
+    flex-basis: 41.66%;
+    max-width: 41.66%; }
+  .flawless-skatepark__middle {
+    flex-basis: 16.66%;
+    max-width: 16.66%; }
+    .flawless-skatepark__middle img {
+      width: 100%; } }
+
+@media (max-width: 768px) {
+  .flawless-skatepark__right-side, .flawless-skatepark__left-side {
+    flex-basis: 100%;
+    max-width: 100%; }
+    .flawless-skatepark__right-side p, .flawless-skatepark__left-side p {
+      max-width: inherit; }
+    .flawless-skatepark__right-side > div, .flawless-skatepark__left-side > div {
+      flex-direction: row;
+      margin-bottom: 30px; }
+  .flawless-skatepark__right-side {
+    padding-left: 0; }
+  .flawless-skatepark__middle {
+    display: none; }
+    .flawless-skatepark__middle img {
+      width: 100%; } }
+
+@media (max-width: 576px) {
+  .flawless-skatepark__right-side > div img, .flawless-skatepark__left-side > div img {
+    width: 30px; } }
+
+.social-tasks {
+  margin-top: 95px; }
+  .social-tasks h2 {
+    margin: 0; }
+  .social-tasks h3 {
+    margin: 0; }
+  .social-tasks h4 {
+    margin-top: 25px;
+    margin-bottom: 22px;
+    color: #1bb7ee;
+    text-align: center; }
+  .social-tasks ul {
+    padding-left: 10px; }
+  .social-tasks li {
+    margin-bottom: 10px;
+    list-style: disc; }
+  .social-tasks__title {
+    margin-bottom: 60px;
+    text-align: center; }
+  .social-tasks__body {
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-around; }
+    .social-tasks__body div {
+      flex-basis: 33.3%;
+      max-width: 33.3%;
+      padding: 0 12px; }
+      .social-tasks__body div img {
+        width: 100%; }
+
+@media (max-width: 768px) {
+  .social-tasks__body {
+    flex-wrap: wrap;
+    margin-bottom: 30px; }
+    .social-tasks__body div {
+      flex-basis: 100%;
+      max-width: 100%;
+      margin-top: 30px; } }
+
+.skatepark-in-numbers {
+  padding-bottom: 8px;
+  margin-right: -15px;
+  margin-left: -15px;
+  color: #ffffff;
+  background-color: #76d4f5; }
+  .skatepark-in-numbers__title {
+    margin-bottom: 23px;
+    text-align: center; }
+    .skatepark-in-numbers__title h3 {
+      position: relative;
+      display: inline-block;
+      padding: 1px 51px 10px;
+      margin: 0;
+      font-size: 2.5rem;
+      color: #000000;
+      background-color: #ffffff;
+      border-radius: 2px; }
+      .skatepark-in-numbers__title h3::before, .skatepark-in-numbers__title h3::after {
+        position: absolute;
+        bottom: -26px;
+        width: 165px;
+        height: 26px;
+        content: '';
+        background: url(http://static.parastorage.com/services/skins/2.1229.63/images/wysiwyg/core/themes/base/liftedshadow_medium.png) no-repeat; }
+      .skatepark-in-numbers__title h3::before {
+        left: -20px;
+        background-position: 0 0; }
+      .skatepark-in-numbers__title h3::after {
+        right: -20px;
+        background-position: 100% 0; }
+  .skatepark-in-numbers__row-1, .skatepark-in-numbers__row-2 {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    text-align: center; }
+    .skatepark-in-numbers__row-1 h3, .skatepark-in-numbers__row-2 h3 {
+      margin: 0;
+      font-size: 2.8rem; }
+  .skatepark-in-numbers__row-1 {
+    margin-bottom: 36px; }
+    .skatepark-in-numbers__row-1 span {
+      font-size: 1.6rem; }
+    .skatepark-in-numbers__row-1 .skatepark-in-numbers__row-1-year {
+      display: block;
+      font-size: 4.8rem;
+      line-height: 4.8rem; }
+    .skatepark-in-numbers__row-1 div:first-child,
+    .skatepark-in-numbers__row-1 div:last-child {
+      position: relative; }
+    .skatepark-in-numbers__row-1 div:first-child::after,
+    .skatepark-in-numbers__row-1 div:last-child::before {
+      position: absolute;
+      width: 9px;
+      height: 9px;
+      content: '';
+      background-color: #ffffff;
+      border-radius: 50%; }
+    .skatepark-in-numbers__row-1 div:first-child {
+      padding-right: 120px;
+      text-align: right; }
+      .skatepark-in-numbers__row-1 div:first-child::after {
+        top: 15px;
+        right: 60px; }
+    .skatepark-in-numbers__row-1 div:last-child {
+      padding-left: 120px;
+      text-align: left; }
+      .skatepark-in-numbers__row-1 div:last-child::before {
+        top: 15px;
+        left: 60px; }
+  .skatepark-in-numbers__row-1-based {
+    position: relative;
+    display: inline-block;
+    padding: 3px 23px 5px 33px;
+    font-size: 1.8rem;
+    background-color: #acedf8;
+    transform: translateY(-7px); }
+    .skatepark-in-numbers__row-1-based::before, .skatepark-in-numbers__row-1-based::after {
+      position: absolute;
+      width: 0;
+      height: 0;
+      content: '';
+      border-top: 17px solid transparent;
+      border-bottom: 17px solid transparent; }
+    .skatepark-in-numbers__row-1-based::before {
+      top: 0;
+      left: 0;
+      border-right: 8px solid transparent;
+      border-left: 8px solid #76d4f5; }
+    .skatepark-in-numbers__row-1-based::after {
+      top: 0;
+      right: 0;
+      border-right: 8px solid #76d4f5;
+      border-left: 8px solid transparent; }
+  .skatepark-in-numbers__row-2 .skatepark-in-numbers__number {
+    display: block;
+    font-size: 5rem;
+    line-height: 5rem; }
+  .skatepark-in-numbers__row-2 .skatepark-in-numbers__area {
+    font-size: 1.8rem; }
+  .skatepark-in-numbers__row-2 .skatepark-in-numbers__span-text {
+    font-size: 1.6rem; }
+    .skatepark-in-numbers__row-2 .skatepark-in-numbers__span-text i {
+      display: inline-block; }
+  .skatepark-in-numbers__row-2 div:nth-of-type(1) img {
+    max-width: 80px;
+    max-height: 70px;
+    margin-bottom: -10px; }
+  .skatepark-in-numbers__row-2 div:nth-of-type(2) {
+    max-width: 178px; }
+    .skatepark-in-numbers__row-2 div:nth-of-type(2) i {
+      display: inline; }
+    .skatepark-in-numbers__row-2 div:nth-of-type(2) span {
+      margin-top: 27px; }
+    .skatepark-in-numbers__row-2 div:nth-of-type(2) .skatepark-in-numbers__crowd {
+      height: 45px;
+      text-align: left; }
+      .skatepark-in-numbers__row-2 div:nth-of-type(2) .skatepark-in-numbers__crowd img {
+        margin-left: -4px; }
+      .skatepark-in-numbers__row-2 div:nth-of-type(2) .skatepark-in-numbers__crowd img:nth-of-type(odd) {
+        width: 18px; }
+      .skatepark-in-numbers__row-2 div:nth-of-type(2) .skatepark-in-numbers__crowd img:nth-of-type(even) {
+        width: 20px; }
+      .skatepark-in-numbers__row-2 div:nth-of-type(2) .skatepark-in-numbers__crowd .skatepark-in-numbers__crowd-line-1 {
+        margin-bottom: 8px; }
+        .skatepark-in-numbers__row-2 div:nth-of-type(2) .skatepark-in-numbers__crowd .skatepark-in-numbers__crowd-line-1 img:nth-of-type(1) {
+          margin-right: 111px; }
+      .skatepark-in-numbers__row-2 div:nth-of-type(2) .skatepark-in-numbers__crowd .skatepark-in-numbers__crowd-line-2 img:nth-last-of-type(1) {
+        margin-left: 41px; }
+  .skatepark-in-numbers__row-2 div:nth-of-type(3) div {
+    height: 48px;
+    margin-bottom: 10px; }
+    .skatepark-in-numbers__row-2 div:nth-of-type(3) div img {
+      margin-left: -6px; }
+  .skatepark-in-numbers__row-2 div:nth-of-type(4) div {
+    height: 27px;
+    margin-top: 15px;
+    margin-bottom: 17px; }
+    .skatepark-in-numbers__row-2 div:nth-of-type(4) div img {
+      width: 26px;
+      margin-left: -2px; }
+  .skatepark-in-numbers__row-2 div:nth-of-type(5) {
+    max-width: 190px;
+    margin-right: 40px; }
+    .skatepark-in-numbers__row-2 div:nth-of-type(5) .skatepark-in-numbers__span-text {
+      margin-top: 10px; }
+    .skatepark-in-numbers__row-2 div:nth-of-type(5) .skatepark-in-numbers__number {
+      display: inline;
+      font-size: 4.5rem; }
+    .skatepark-in-numbers__row-2 div:nth-of-type(5) div {
+      height: 48px;
+      margin-bottom: 15px; }
+      .skatepark-in-numbers__row-2 div:nth-of-type(5) div img {
+        width: 40px;
+        transform: translateX(-25px); }
+  .skatepark-in-numbers__span-text {
+    display: inline-block;
+    max-width: 85%;
+    line-height: 1.6rem; }
+
+@media (max-width: 992px) {
+  .skatepark-in-numbers {
+    padding: 0 10px; }
+    .skatepark-in-numbers__row-1 div {
+      flex-basis: 41.66%;
+      max-width: 41.66%; }
+    .skatepark-in-numbers__row-1 div:nth-of-type(2) {
+      flex-basis: 16.66%;
+      max-width: 16.66%; }
+    .skatepark-in-numbers__row-2 .skatepark-in-numbers__number {
+      font-size: 3rem;
+      line-height: 3rem; }
+    .skatepark-in-numbers__row-2 div:nth-of-type(5) {
+      margin-right: 0; }
+      .skatepark-in-numbers__row-2 div:nth-of-type(5) .skatepark-in-numbers__number {
+        display: inline;
+        font-size: 3rem; }
+    .skatepark-in-numbers__number {
+      font-size: 4rem; } }
+
+@media (max-width: 768px) {
+  .skatepark-in-numbers__row-1, .skatepark-in-numbers__row-2 {
+    flex-wrap: wrap; }
+  .skatepark-in-numbers__row-1 div {
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-bottom: 20px; }
+  .skatepark-in-numbers__row-1 div:nth-of-type(2) {
+    flex-basis: 100%;
+    order: -1;
+    max-width: 100%; }
+  .skatepark-in-numbers__row-1 div:first-child::after,
+  .skatepark-in-numbers__row-1 div:last-child::before {
+    display: none; }
+  .skatepark-in-numbers__row-1 div:first-child {
+    padding-right: 0;
+    text-align: center; }
+  .skatepark-in-numbers__row-1 div:last-child {
+    padding-left: 0;
+    text-align: center; }
+  .skatepark-in-numbers__row-2 > div {
+    margin-bottom: 40px; }
+  .skatepark-in-numbers__row-2 .skatepark-in-numbers__number {
+    font-size: 4.5rem;
+    line-height: 4.5rem; }
+  .skatepark-in-numbers__row-2 div:nth-of-type(5) {
+    margin-right: 0; }
+    .skatepark-in-numbers__row-2 div:nth-of-type(5) div img {
+      transform: translateX(0); }
+    .skatepark-in-numbers__row-2 div:nth-of-type(5) .skatepark-in-numbers__number {
+      display: inline;
+      font-size: 4.5rem; } }
+
+.type_clients {
+  position: relative;
+  padding-bottom: 55px;
+  margin-bottom: 25px; }
+  .type_clients__title {
+    text-align: center; }
+    .type_clients__title h5 {
+      margin-top: 30px;
+      margin-bottom: 40px;
+      font-weight: bold;
+      color: #333333;
+      text-transform: uppercase; }
+  .type_clients__body {
+    display: flex;
+    align-items: top;
+    justify-content: center; }
+    .type_clients__body div {
+      flex-basis: 33.33%;
+      width: 33.33%;
+      padding: 0 10px; }
+      .type_clients__body div h6 {
+        display: inline-block;
+        margin-bottom: 20px;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 1.6rem;
+        color: #000000; }
+      .type_clients__body div p {
+        line-height: 1.8rem; }
+      .type_clients__body div p:last-of-type {
+        margin-bottom: 18px; }
+
+@media (max-width: 768px) {
+  .type_clients__body {
+    flex-wrap: wrap; }
+    .type_clients__body div {
+      flex-basis: 100%;
+      max-width: 100%;
+      margin-bottom: 40px; } }
+
+.our_projects {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 38px;
+  margin: 52px -15px 38px; }
+  .our_projects div {
+    padding: 0 15px; }
+    .our_projects div h4 {
+      margin-bottom: 1px;
+      font-size: 1.9rem; }
+    .our_projects div div {
+      position: relative;
+      width: 320px;
+      height: 230px;
+      padding: 0; }
+      .our_projects div div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+      .our_projects div div a {
+        position: absolute;
+        right: 30px;
+        bottom: 12px; }
+    .our_projects div ul {
+      padding: 10px;
+      padding: 16px 35px 30px 26px;
+      margin: 0;
+      margin-right: -15px;
+      background-color: #1bb7ee; }
+      .our_projects div ul li {
+        margin-bottom: 25px;
+        font-size: 1.9rem;
+        line-height: 2.25rem;
+        color: #ffffff; }
+        .our_projects div ul li span {
+          display: block; }
+
+@media (max-width: 992px) {
+  .our_projects {
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .our_projects div {
+      padding: 0;
+      margin-top: 20px; }
+      .our_projects div h4 {
+        margin-left: 25px; }
+      .our_projects div ul {
+        margin: 0; }
+      .our_projects div:nth-of-type(3) h4 {
+        margin-left: 25px; } }
+
+@media (max-width: 576px) {
+  .our_projects {
+    margin-top: 20px; }
+    .our_projects div {
+      margin-bottom: 20px; }
+      .our_projects div h4 {
+        margin-left: 25px; } }
+
+.team {
+  margin-top: 51px; }
+  .team__title {
+    margin-bottom: 40px;
+    text-align: center; }
+    .team__title h3,
+    .team__title h2 {
+      padding: 0;
+      margin: 0; }
+  .team__slider {
+    height: 300px;
+    overflow: hidden; }
+
+@media (max-width: 992px) {
+  .team__slider div .jcarousel-container,
+  .team__slider div .jcarousel-clip {
+    width: 100%; }
+  .team__slider div .jcarousel-next {
+    right: 0; }
+  .team__slider div li.jcarousel-item {
+    margin-left: -7px; } }
+
+@media (max-width: 768px) {
+  .team__slider div li.jcarousel-item {
+    width: auto;
+    padding: 0 60px;
+    margin-left: -5px; } }
+
+@media (max-width: 576px) {
+  .team__slider div li.jcarousel-item {
+    width: auto;
+    width: 250px;
+    height: 250px;
+    padding: 0 10px;
+    margin-left: 0; }
+    .team__slider div li.jcarousel-item img {
+      width: 100%;
+      height: auto; } }
+
+.clients {
+  margin-top: 41px;
+  margin-right: -15px;
+  margin-left: -15px; }
+  .clients__title {
+    text-align: center;
+    background: url(/wp-content/themes/xsarampas/assets/images/ironpatern.png) repeat;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc; }
+    .clients__title h2 {
+      margin-bottom: 20px;
+      color: #000000; }
+  .clients__body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 182px; }
+    .clients__body div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 150px;
+      min-height: 150px; }
+    .clients__body img {
+      max-width: 110px; }
+
+@media (max-width: 768px) {
+  .clients__body {
+    justify-content: center;
+    padding: 0 20px; } }
+
+.about_skatepark {
+  margin: 0 -15px; }
+  .about_skatepark h3 {
+    font-size: 3.2rem;
+    font-weight: bold;
+    line-height: 4rem; }
+  .about_skatepark p {
+    font-size: 1.8rem;
+    color: #333333; }
+  .about_skatepark__title {
+    position: relative;
+    min-height: 500px;
+    background: url(/wp-content/themes/xsarampas/assets/images/main_1.jpg);
+    background-size: cover;
+    background-size: auto; }
+    .about_skatepark__title h2 {
+      position: absolute;
+      top: 30%;
+      left: 52%;
+      width: 295px;
+      font-size: 3.2rem;
+      font-weight: bold;
+      line-height: 4.5rem;
+      color: #ffffff; }
+    .about_skatepark__title div {
+      position: absolute;
+      top: 18%;
+      right: 80px;
+      display: flex;
+      flex-direction: column; }
+      .about_skatepark__title div img {
+        max-width: 80px; }
+  .about_skatepark__slogan {
+    max-width: 616px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: justify; }
+  .about_skatepark__line-before, .about_skatepark__line-after {
+    max-width: 455px;
+    padding: 46px 0;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center; }
+    .about_skatepark__line-before h3, .about_skatepark__line-after h3 {
+      font-size: 3.2rem;
+      font-weight: bold;
+      line-height: 4rem; }
+  .about_skatepark__line-before {
+    margin-top: 60px;
+    border-top: 3px solid #000000; }
+  .about_skatepark__line-after {
+    margin-bottom: 60px;
+    border-bottom: 3px solid #000000; }
+  .about_skatepark__card {
+    display: flex;
+    margin-bottom: 119px; }
+    .about_skatepark__card div {
+      flex-basis: 50%;
+      width: 50%; }
+    .about_skatepark__card-img {
+      height: 250px;
+      padding-right: 14px; }
+      .about_skatepark__card-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    .about_skatepark__card-desc {
+      padding-right: 85px;
+      padding-left: 47px;
+      text-align: left; }
+      .about_skatepark__card-desc h3 {
+        margin: 0;
+        margin-bottom: 25px; }
+      .about_skatepark__card-desc p {
+        position: relative;
+        font-size: 2rem;
+        line-height: 2.8rem; }
+      .about_skatepark__card-desc p:last-of-type::after {
+        position: absolute;
+        bottom: -14px;
+        left: 0;
+        width: 72px;
+        height: 3px;
+        content: '';
+        background-color: #000000; }
+  .about_skatepark__card:nth-of-type(odd) {
+    flex-direction: row-reverse; }
+    .about_skatepark__card:nth-of-type(odd) .about_skatepark__card-desc {
+      padding-right: 75px;
+      padding-left: 85px;
+      text-align: right; }
+      .about_skatepark__card:nth-of-type(odd) .about_skatepark__card-desc p:last-of-type::after {
+        right: 0;
+        left: auto; }
+    .about_skatepark__card:nth-of-type(odd) .about_skatepark__card-img {
+      padding-right: 0;
+      padding-left: 14px; }
+  .about_skatepark__slogan-2 {
+    padding: 60px 0;
+    background-color: #f2f2f2; }
+    .about_skatepark__slogan-2 div {
+      width: 700px;
+      margin: 0 auto;
+      text-align: center; }
+      .about_skatepark__slogan-2 div p {
+        font-size: 2rem; }
+  .about_skatepark__underline {
+    position: relative;
+    padding-bottom: 120px; }
+    .about_skatepark__underline::after {
+      position: absolute;
+      right: 13%;
+      bottom: 0;
+      left: 13%;
+      height: 3px;
+      content: '';
+      background-color: #000000; }
+
+@media (max-width: 992px) {
+  .about_skatepark__title h2 {
+    top: 59%;
+    left: 5%; }
+  .about_skatepark__card-desc {
+    padding-right: 20px;
+    padding-left: 20px; }
+  .about_skatepark__card:nth-of-type(odd) .about_skatepark__card-desc {
+    padding-right: 20px;
+    padding-left: 20px; } }
+
+@media (max-width: 768px) {
+  .about_skatepark__card {
+    flex-wrap: wrap; }
+    .about_skatepark__card div {
+      flex-basis: 100%; }
+  .about_skatepark__card-desc h3 {
+    margin-top: 20px;
+    text-align: left; }
+  .about_skatepark__card-desc p {
+    text-align: left; }
+  .about_skatepark__card-desc p:last-of-type::after {
+    display: none; }
+  .about_skatepark__card-img {
+    padding: 0; }
+  .about_skatepark__card:nth-of-type(odd) .about_skatepark__card-img {
+    padding: 0; }
+  .about_skatepark__slogan {
+    padding: 0 20px; }
+  .about_skatepark__slogan-2 div {
+    width: 100%;
+    padding: 20px; } }
+
+@media (max-width: 576px) {
+  .about_skatepark__title {
+    background-position: -180px 0; }
+    .about_skatepark__title h2 {
+      top: 59%;
+      left: 5%;
+      width: 90%;
+      font-size: 3rem; }
+    .about_skatepark__title div {
+      display: none; } }
+
+@media (max-width: 768px) {
+  .slider_main_page .flexslider .slides li {
+    height: auto; } }
+
+@media (min-width: 1200px) {
+  .row {
+    margin-left: -30px;
+    *zoom: 1; } }
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .row {
+    margin-left: -20px;
+    *zoom: 1; } }
+
+body {
+  background-image: url("../images/bg.png");
+  background-repeat: repeat;
+  background-position: center top; }
+
+/*# sourceMappingURL=logfile/main-page.css.map */

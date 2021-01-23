@@ -1,0 +1,39 @@
+@import '../utilities/color.scss';
+
+body .xsa-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 30px;
+  font-size: 1.4rem;
+  color: $white;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: $blue;
+  border: 0;
+  border-radius: 0;
+  box-shadow: 0 1px 4px 0 #00000099;
+  transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+
+  &:hover {
+    color: $white;
+    text-decoration: underline;
+    background-color: $black;
+    text-decoration-color: $blueLink;
+  }
+}
+
+.xsa-button_inside-text {
+  padding: 9px 52px;
+  box-shadow: none;
+
+  &:hover {
+    color: $white;
+    text-decoration: none;
+    background-color: $blue;
+  }
+}
+
+.xsa-button_p-10 {
+  padding: 14px 15px;
+}

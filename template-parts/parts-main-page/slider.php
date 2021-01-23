@@ -1,5 +1,5 @@
 <!-- slider -->
-<div class="row">
+<div class="row slider_main_page">
 <div class="flexslider">
 		<ul class="slides">
 				<?php
