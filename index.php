@@ -13,7 +13,6 @@ get_header(); ?>
 	<?php get_template_part('template-parts/parts-main-page/team'); ?>
 	<?php get_template_part('template-parts/parts-main-page/clients'); ?>
 	<?php get_template_part('template-parts/parts-main-page/about_skatepark'); ?>
-	<p>test</p>
 </div>
 
 <?php get_footer();
