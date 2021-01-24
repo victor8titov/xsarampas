@@ -1,21 +1,11 @@
 <?php
-/**
- * Twenty Seventeen functions and definitions
- *
- * @link https://developer.wordpress.org/themes/basics/theme-functions/
- *
- * @package WordPress
- * @subpackage Twenty_Seventeen
- * @since 1.0
- */
-
-/**
- * Twenty Seventeen only works in WordPress 4.7 or later.
- */
-define('URI_THEME', get_stylesheet_directory_uri());
-define('URI_IMAGES', get_stylesheet_directory_uri().'/assets/images');
 
 
+require_once 'inc/debug-functions.php';
+require_once 'settings/constants.php';
+require_once 'settings/add-styles.php';
+require_once 'settings/add-scripts.php';
+require_once 'settings/settings-main-page.php';
 
 function artabr_opengraph_fix_yandex($lang) {
 	$lang_prefix = 'prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#  profile: http://ogp.me/ns/profile# fb: http://ogp.me/ns/fb#"';
@@ -437,169 +427,13 @@ function twentyseventeen_colors_css_wrap() {
 
 add_action( 'wp_head', 'twentyseventeen_colors_css_wrap' );
 
-/**
- * 	Add styles
- */
-function xsaramps_styles() {
-	if ( get_post_type() === 'page' && is_front_page()) {
-		// главная страница
-		//  корректируемые стили 
-		debug_ms('main page!');
-		wp_enqueue_style( 'main-page', get_theme_file_uri('assets/styles/main-page.css'), null, 1.0);
-		
-		wp_enqueue_style( 'xsaramps-style', get_stylesheet_uri() );
-		wp_enqueue_style('bootstrarp', get_theme_file_uri('/assets/css3.2.0/bootstrap.min.css'), array('xsaramps-style'), '3.2.0');
-		wp_enqueue_style('flexslider', get_theme_file_uri('/assets/css/flexslider.css'), array('xsaramps-style'), '3.2.0');
-		wp_enqueue_style('corusel', get_theme_file_uri('/assets/css/corusel.css'), array('xsaramps-style'), '3.2.0');
-		wp_enqueue_style('ui.totop', get_theme_file_uri('/assets/css/ui.totop.css'), array('xsaramps-style'), '3.2.0');
-		//wp_enqueue_style('jquery.fancybox-1.3.4', get_theme_file_uri('/assets/css/jquery.fancybox-1.3.4.css'), array('xsaramps-style'), '3.2.0');	
-
-
-    //    в настройка сайта указана статическая страница
-//} else if (get_post_type() === 'post' && is_home()) {
-		// страница постов
-	} else {
-		debug_ms('all other');
-		// Add custom fonts, used in the main stylesheet.
-		wp_enqueue_style( 'main', get_theme_file_uri('assets/styles/main.css'), null, 1.0);
-		wp_enqueue_style( 'twentyseventeen-fonts', twentyseventeen_fonts_url(), array(), null );
-		//wp_enqueue_style( 'main', get_theme_file_uri('assets/styles/main.min.css'), null, 1.0);
-
-		/**
-		 * 	Главный стиль лежит в корне имя sytle.css
-		 * 
-		 * 	в нем мои старые правки лежат а так же другие стили которые испльзуются.
-		 */
-		wp_enqueue_style( 'xsaramps-style', get_stylesheet_uri() );
-
-		// Load the dark colorscheme.
-		if ( 'dark' === get_theme_mod( 'colorscheme', 'light' ) || is_customize_preview() ) {
-			wp_enqueue_style( 'twentyseventeen-colors-dark', get_theme_file_uri( '/assets/css/colors-dark.css' ), array( 'xsaramps-style' ), '1.0' );
-		}
-
-
-		/**
-		 * 
-		 * 		Internte Explorer support styles
-		 * 
-		 */
-		// Load the Internet Explorer 8 specific stylesheet.
-		wp_enqueue_style( 'xsaramps-ie8', get_theme_file_uri( '/assets/css/ie8.css' ), array( 'xsaramps-style' ), '1.0' );
-		wp_style_add_data( 'xsaramps-ie8', 'conditional', 'lt IE 9' );
-
-		// Load the Internet Explorer 7 specific stylesheet.
-		wp_enqueue_style( 'xsaramps-ie7', get_theme_file_uri( '/assets/css/ie7.css' ), array( 'xsaramps-style' ), '1.0' );
-		wp_style_add_data( 'xsaramps-ie7', 'conditional', 'IE 7' );
-
-		wp_enqueue_style( 'xsaramps-ie9-2', get_theme_file_uri( '/assets/css/colorboxIE.css' ), array( 'xsaramps-style' ), '1.0' );
-			wp_style_add_data( 'xsaramps-ie9-2', 'conditional', 'lt IE 9' );
-
-		wp_enqueue_style( 'xsaramps-ie9-3', get_theme_file_uri( '/assets/css/ie.css' ), array( 'xsaramps-style' ), '1.0' );
-		wp_style_add_data( 'xsaramps-ie9-3', 'conditional', 'lt IE 9' );
-
-		/**
-		 * 
-		 * 		Styles for library
-		 * 
-		 */
-			wp_enqueue_style('bootstrarp', get_theme_file_uri('/assets/css3.2.0/bootstrap.min.css'), array('xsaramps-style'), '3.2.0');
-			wp_enqueue_style('ui.totop', get_theme_file_uri('/assets/css/ui.totop.css'), array('xsaramps-style'), '3.2.0');
-			wp_enqueue_style('flexslider', get_theme_file_uri('/assets/css/flexslider.css'), array('xsaramps-style'), '3.2.0');
-			wp_enqueue_style('corusel', get_theme_file_uri('/assets/css/corusel.css'), array('xsaramps-style'), '3.2.0');
-			wp_enqueue_style('jquery.fancybox-1.3.4', get_theme_file_uri('/assets/css/jquery.fancybox-1.3.4.css'), array('xsaramps-style'), '3.2.0');	
-
-	}
-	/**
-	 * 
-	 * 	FOR ADMIN
-	 */
-
-	// Load the Internet Explorer 9 specific stylesheet, to fix display issues in the Customizer.
-	if ( is_customize_preview() ) {
-		wp_enqueue_style( 'xsaramps-ie9-1', get_theme_file_uri( '/assets/css/ie9.css' ), array( 'xsaramps-style' ), '1.0' );
-		wp_style_add_data( 'xsaramps-ie9-1', 'conditional', 'IE 9' );
-	}
-	
-}
-add_action( 'wp_enqueue_scripts', 'xsaramps_styles' );
 
 
 
 
 
-/**
- * Enqueue scripts
- */
-function twentyseventeen_scripts() {
-	/**
-	 * 	Jquery
-	 */
-	/* wp_deregister_script( 'jquery-core' );
-	wp_register_script( 'jquery-core', get_template_directory_uri().'/assets/js3.2.0/jquery-1.8.3.min.js', 'titov');
-	wp_enqueue_script( 'jquery' ); */
-
-	/**
-	 * 
-	 * 	Lbibrary script 
-	 */
-	
-	wp_enqueue_script( 'document.ready', get_theme_file_uri('/assets/js/document.ready.js'), array('jquery'));
-	wp_enqueue_script( 'bootstrap', get_theme_file_uri('/assets/js3.2.0/bootstrap.min.js'), array('jquery'), '3.2.0' );
-	wp_enqueue_script( 'ui.totop', get_theme_file_uri('/assets/js/jquery.ui.totop.js'), array('jquery') );
-	wp_enqueue_script( 'flexslider', get_theme_file_uri('/assets/js/jquery.flexslider.js'), array('jquery') );
-	wp_enqueue_script( 'jcarousel', get_theme_file_uri('/assets/js/jquery.jcarousel.min.js'), array('jquery') );
-	wp_enqueue_script( 'fancybox', get_theme_file_uri('/assets/js/jquery.fancybox-1.3.4.js'), array('jquery') );
-	wp_enqueue_script( 'maskedinput', get_theme_file_uri('/assets/js/jquery.maskedinput.min.js'), array('jquery') ); 
 
 
-	/**
-	 * 	
-	 * 	My script 
-	 * 
-	 * Создаем метаполя для загрузки картинок.
-	 * 	подключаем js файл w8lt8r_main.js для frontend
-	 * 	часть работы проводим в этом файле 
-	 * 
-	 */
-	if ( ! did_action( 'wp_enqueue_media' ) ) {
-		wp_enqueue_media();
-	}
-	wp_enqueue_script( 'myuploadscript', get_stylesheet_directory_uri() . '/assets/js/w8lt8r_main.js', array('jquery'), null, false );
-	 
-
-	// Load the html5 shiv.
-	wp_enqueue_script( 'html5', get_theme_file_uri( '/assets/js/html5.js' ), array(), '3.7.3' );
-	wp_script_add_data( 'html5', 'conditional', 'lt IE 9' );
-
-	wp_enqueue_script( 'twentyseventeen-skip-link-focus-fix', get_theme_file_uri( '/assets/js/skip-link-focus-fix.js' ), array(), '1.0', true );
-
-	$twentyseventeen_l10n = array(
-		'quote'          => twentyseventeen_get_svg( array( 'icon' => 'quote-right' ) ),
-	);
-
-	if ( has_nav_menu( 'top' ) ) {
-		wp_enqueue_script( 'twentyseventeen-navigation', get_theme_file_uri( '/assets/js/navigation.js' ), array(), '1.0', true );
-		$twentyseventeen_l10n['expand']         = __( 'Expand child menu', 'twentyseventeen' );
-		$twentyseventeen_l10n['collapse']       = __( 'Collapse child menu', 'twentyseventeen' );
-		$twentyseventeen_l10n['icon']           = twentyseventeen_get_svg( array( 'icon' => 'angle-down', 'fallback' => true ) );
-	}
-
-	wp_enqueue_script( 'twentyseventeen-global', get_theme_file_uri( '/assets/js/global.js' ), array( 'jquery' ), '1.0', true );
-	wp_enqueue_script( 'jquery-scrollto', get_theme_file_uri( '/assets/js/jquery.scrollTo.js' ), array( 'jquery' ), '2.1.2', true );
-	
-	
-	 
-	
-	
-	
-	
-	wp_localize_script( 'twentyseventeen-skip-link-focus-fix', 'twentyseventeenScreenReaderText', $twentyseventeen_l10n );
-
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
-	}
-}
-add_action( 'wp_enqueue_scripts', 'twentyseventeen_scripts' );
 
 /**
  * Add custom image sizes attribute to enhance responsive image functionality
@@ -1059,9 +893,8 @@ add_action('wp_ajax_nopriv_loadmore', 'true_load_posts');
 
 // подключаем функцию активации мета блока 
 add_action('admin_head', 'my_picture_for_slider_index', 1);
+
 function my_picture_for_slider_index() {
-	
-	
 	//	проверка является ли редактируемая страница под шаблоном home-page.php
 	// Get the current ID
 	if( isset( $_GET['post'] ) ) $post_id = $_GET['post'];
@@ -1071,10 +904,9 @@ function my_picture_for_slider_index() {
 	// Get current template
 	$current_template = get_post_meta( $post_id, '_wp_page_template', true );
 	//print_r($current_template);	
-	if( $current_template  !== "home-page.php" ) return;
+	if( $current_template  !== "template-main.php" ) return;
 	
 	add_meta_box( 'picture_for_slider', 'ОПЦИИ ГЛАВНОЙ СТРАНИЦЫ', 'add_box_for_slider_for_home_page', 'page', 'normal', 'high'  );
-	
 }
 
 // код блока
@@ -1209,23 +1041,3 @@ add_filter('wpseo_head','canon_paged');
 
 
 
-function debug_ms($ms, $more = false) {
-	if ($more) {
-		?>
-		<script>
-			console.log('---:   debug_ms	:---')
-			console.log(`<?php var_dump($ms) ?>`);
-			console.log('---:   end debug_ms	:---')
-		</script>
-		<?php
-	} else {
-		?>
-	<script>
-		console.log('---:   debug_ms	:---')
-		console.log('<?php print_r($ms) ?>');
-		console.log('---:   end debug_ms	:---')
-	</script>
-	<?php
-	}
-	
-}
