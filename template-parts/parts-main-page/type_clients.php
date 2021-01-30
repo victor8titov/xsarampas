@@ -1,3 +1,7 @@
+<?php
+$type_clients = new UtilsMetaBox(TYPE_CLIENTS);
+?>
+
 <!-- type_clients -->
 <div class="type_clients">
 	<div class="type_clients__title">
@@ -5,19 +9,22 @@
 	</div>
 	<div class="type_clients__body">
 		<div>
-			<h6>ГОСУДАРСТВЕННЫМ ЗАКАЗЧИКАМ</h6>
-			<p>Приобретение скейт парка для нужд муниципальньного образования, один из самых частых способов&nbsp; работы нашей организации. Аукционная документация, грамотное ТЗ в кратчайшие сроки -&nbsp;сновная проблема в рамках работы с Государственным Заказом.</p>
-			<a href="<?php echo get_site_url();?>/goszakaz" class="xsa-button xsa-button_inside-text">Подробнее</a>
+			<h6><?php $type_clients->get_text('field-1-title'); ?></h6>
+			<p><?php $type_clients->get_text('field-1-text'); ?></p>
+			<a href="<?php echo get_site_url() . '/';
+								$type_clients->get_text('field-1-link'); ?>" class="xsa-button xsa-button_inside-text">Подробнее</a>
 		</div>
 		<div>
-			<h6>КОРПОРАТИВНЫМ КЛИЕНТАМ</h6>
-			<p>У вас крупное массовое мероприятие и хотите экстрима, но не знаете, где заказать качественное шоу с готовыми фигурами под ключ? Вы застройщик жилого квартала и вы ищите новые идеи взамен однотипных детских площадок? Вы хотите сделать свой бизнес в экшн спорте и открыть коммерческий скейт парк? Мы то, что вам нужно...</p>
-			<a class="xsa-button xsa-button_inside-text" href="<?php echo get_site_url();?>/korporativzakaz">Подробнее</a>
+			<h6><?php $type_clients->get_text('field-2-title'); ?></h6>
+			<p><?php $type_clients->get_text('field-2-text'); ?></p>
+			<a class="xsa-button xsa-button_inside-text" href="<?php echo get_site_url() . '/';
+																													$type_clients->get_text('field-2-link'); ?>">Подробнее</a>
 		</div>
 		<div>
-			<h6>ЧАСТНЫМ ЗАКАЗЧИКАМ</h6>
-			<p>Если вы мечтаете о минирампе на своем заднем дворе или заполучить переносную перилку с регулируемой высотой для отточки трюков, вы попали по адресу…</p>
-			<a href="<?php echo get_site_url();?>/chastniyzakaz" class="xsa-button xsa-button_inside-text">Подробнее</a>
+			<h6><?php $type_clients->get_text('field-3-title'); ?></h6>
+			<p><?php $type_clients->get_text('field-3-text'); ?></p>
+			<a href="<?php echo get_site_url() . '/';
+								$type_clients->get_text('field-3-link'); ?>" class="xsa-button xsa-button_inside-text">Подробнее</a>
 		</div>
 	</div>
 	<div class="shadow_after_box"></div>
