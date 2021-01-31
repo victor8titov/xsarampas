@@ -82,7 +82,11 @@ class UtilsForImage
   {
     if (!$this->check_image($id)) return '';
     $image = $this->get_data_image($id);
-    return wp_get_attachment_image($image['id'], $size, '', ['alt' => $image['alt'], 'caption' => $image['caption'], 'loading' => $loading]);
+    return wp_get_attachment_image($image['id'], $size, '', [
+      'alt' => $image['alt'], 
+      'caption' => $image['caption'], 
+      'loading' => $loading,
+      ]);
   }
 
   public function get_html_tag_image_with_link($id, $size = 'full', $link = null)

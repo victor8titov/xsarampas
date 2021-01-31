@@ -66,16 +66,6 @@ function twentyseventeen_setup()
 	 */
 	add_theme_support('post-thumbnails');
 
-	add_image_size('spec_thumb', 360, 240, true);
-	add_image_size('news_thumb', 300, 228, true);
-
-	add_image_size('snews_thumb', 71, 55, true);
-	add_image_size('sslide_thumb', 220, 160, true);
-
-	add_image_size('twentyseventeen-featured-image', 2000, 1200, true);
-	add_image_size('twentyseventeen-thumbnail-avatar', 100, 100, true);
-
-
 	// Set the default content width.
 	$GLOBALS['content_width'] = 525;
 
@@ -440,13 +430,6 @@ function twentyseventeen_colors_css_wrap()
 }
 
 add_action('wp_head', 'twentyseventeen_colors_css_wrap');
-
-
-
-
-
-
-
 
 
 /**
@@ -896,7 +879,7 @@ function true_load_posts()
 					</div>
 				</div>
 			</div>
-	<?php
+<?php
 		}
 		wp_reset_postdata(); // сбрасываем переменную $post
 	}
@@ -933,3 +916,16 @@ function canon_paged()
 	}
 }
 add_filter('wpseo_head', 'canon_paged');
+
+
+
+
+// чтобы убрать высоту и ширину для всех вставляемых изображений
+add_filter('wp_get_attachment_image_src','delete_width_height', 100, 4);
+
+function delete_width_height($image, $attachment_id, $size, $icon){
+
+    $image[1] = '';
+    $image[2] = '';
+    return $image;
+}
