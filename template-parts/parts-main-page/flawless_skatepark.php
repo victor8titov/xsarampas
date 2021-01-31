@@ -45,7 +45,7 @@ $flawless_skatepark = new UtilsMetaBox(FLAWLESS_SKATEPARK);
 	<!-- middle -->
 	<div class="flawless-skatepark__middle">
 		<a href="<?php echo site_url(); ?>">
-			<?php $flawless_skatepark->put_image('image'); ?>
+			<?php $flawless_skatepark->put_image('image', 'medium'); ?>
 		</a>
 	</div>
 

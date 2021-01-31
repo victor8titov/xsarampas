@@ -31,26 +31,19 @@
         bottom: 12px;
       }
     }
+  }
 
-    ul {
-      padding: 10px;
-      padding: 16px 35px 30px 26px;
-      margin: 0;
-      margin-right: -15px;
-      background-color: $blue;
-
-      li {
-        margin-bottom: 25px;
-        font-size: 1.9rem;
-        line-height: 2.25rem;
-        color: $white;
-        @extend .font-monospace;
-
-        span {
-          display: block;
-        }
-      }
-    }
+  &__main-text {
+    padding: 10px;
+    padding: 16px 35px 30px 26px;
+    margin: 0;
+    margin-right: -15px;
+    margin-bottom: 25px;
+    font-size: 1.9rem;
+    line-height: 2.25rem;
+    color: $white;
+    background-color: $blue;
+    @extend .font-monospace;
   }
 }
 

@@ -279,6 +279,7 @@ function meta_boxes_for_slider()
       'id'               => $prefix . 'images',
       'name'             => 'Фото для слайдера',
       'type'             => 'image_advanced',
+      'desc' => 'Для отображения описания картинки заполните поле "Подпись" в режиме редактирования картинки',
     ),
   );
 
@@ -307,7 +308,7 @@ function meta_boxes_for_our_projects()
   for ($i = 1; $i <= 2; $i++) {
     $fields[] = array(
       'name'        => 'Сслыка внутри ресурса',
-      'id'          => $prefix . "field-$i-title",
+      'id'          => $prefix . "field-$i-link",
       'type'        => 'text',
     );
     $fields[] = array(
@@ -366,7 +367,7 @@ function meta_boxes_for_clients()
 
   $fields[] = array(
     'id'               => $prefix . 'images',
-    'name'             => 'Фото для слайдера',
+    'name'             => 'Иконки клиентов. Для того чтобы добавить ссылку на сайт клиента добавти ссылку в поле url в режиме редактирования картинки',
     'type'             => 'image_advanced',
   );
 

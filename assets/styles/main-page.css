@@ -345,7 +345,7 @@ html body {
 .font-open_sans, .type_clients__body div h6 {
   font-family: "Open Sans", sans-serif; }
 
-.font-monospace, .our_projects div ul li {
+.font-monospace, .our_projects__main-text {
   font-family: "Courier New", monospace; }
 
 body .xsa-button {
@@ -1096,19 +1096,16 @@ body .xsa-button {
         position: absolute;
         right: 30px;
         bottom: 12px; }
-    .our_projects div ul {
-      padding: 10px;
-      padding: 16px 35px 30px 26px;
-      margin: 0;
-      margin-right: -15px;
-      background-color: #1bb7ee; }
-      .our_projects div ul li {
-        margin-bottom: 25px;
-        font-size: 1.9rem;
-        line-height: 2.25rem;
-        color: #ffffff; }
-        .our_projects div ul li span {
-          display: block; }
+  .our_projects__main-text {
+    padding: 10px;
+    padding: 16px 35px 30px 26px;
+    margin: 0;
+    margin-right: -15px;
+    margin-bottom: 25px;
+    font-size: 1.9rem;
+    line-height: 2.25rem;
+    color: #ffffff;
+    background-color: #1bb7ee; }
 
 @media (max-width: 992px) {
   .our_projects {

@@ -10,7 +10,7 @@ $social_tasks = new UtilsMetaBox(SOCIAL_TASKS);
 	</div>
 	<div class="social-tasks__body">
 		<div>
-			<?php $social_tasks->put_image('field-1-image'); ?>
+			<?php $social_tasks->put_image('field-1-image', 'medium'); ?>
 			<h4><?php $social_tasks->put_text('field-1-title'); ?></h4>
 			<ul>
 				<?php foreach ($social_tasks->get_array_fields('field-1-text') as $li) : ?>
@@ -19,7 +19,7 @@ $social_tasks = new UtilsMetaBox(SOCIAL_TASKS);
 			</ul>
 		</div>
 		<div>
-			<?php $social_tasks->put_image('field-2-image'); ?>
+			<?php $social_tasks->put_image('field-2-image', 'medium'); ?>
 			<h4><?php $social_tasks->put_text('field-2-title'); ?></h4>
 			<ul>
 				<?php foreach ($social_tasks->get_array_fields('field-2-text') as $li) : ?>
@@ -28,7 +28,7 @@ $social_tasks = new UtilsMetaBox(SOCIAL_TASKS);
 			</ul>
 		</div>
 		<div>
-			<?php $social_tasks->put_image('field-3-image'); ?>
+			<?php $social_tasks->put_image('field-3-image', 'medium'); ?>
 			<h4><?php $social_tasks->put_text('field-3-title'); ?></h4>
 			<ul>
 				<?php foreach ($social_tasks->get_array_fields('field-3-text') as $li) : ?>
