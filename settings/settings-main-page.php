@@ -424,6 +424,12 @@ function meta_boxes_for_about_skatepark()
       'id'          => $prefix . "field-$i-text",
       'type'        => 'textarea',
     );
+    $fields[] = array(
+      'id'               => $prefix . "field-$i-image",
+      'name'             => 'Картинка блока',
+      'type'             => 'image_advanced',
+      'max_file_uploads' => 1, // макс. кол-во картинок для загрузки
+    );
     if ($i !== 4) {
       $fields[] = array(
         'type' => 'divider',

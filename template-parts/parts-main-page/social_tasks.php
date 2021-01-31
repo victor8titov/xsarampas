@@ -10,28 +10,28 @@ $social_tasks = new UtilsMetaBox(SOCIAL_TASKS);
 	</div>
 	<div class="social-tasks__body">
 		<div>
-			<?php $social_tasks->get_image('field-1-image'); ?>
-			<h4><?php $social_tasks->get_text('field-1-title'); ?></h4>
+			<?php $social_tasks->put_image('field-1-image'); ?>
+			<h4><?php $social_tasks->put_text('field-1-title'); ?></h4>
 			<ul>
-				<?php foreach ($social_tasks->get_text_array('field-1-text') as $li) : ?>
+				<?php foreach ($social_tasks->get_array_fields('field-1-text') as $li) : ?>
 					<li><?php echo $li ?></li>
 				<?php endforeach; ?>
 			</ul>
 		</div>
 		<div>
-			<?php $social_tasks->get_image('field-2-image'); ?>
-			<h4><?php $social_tasks->get_text('field-2-title'); ?></h4>
+			<?php $social_tasks->put_image('field-2-image'); ?>
+			<h4><?php $social_tasks->put_text('field-2-title'); ?></h4>
 			<ul>
-				<?php foreach ($social_tasks->get_text_array('field-2-text') as $li) : ?>
+				<?php foreach ($social_tasks->get_array_fields('field-2-text') as $li) : ?>
 					<li><?php echo $li ?></li>
 				<?php endforeach; ?>
 			</ul>
 		</div>
 		<div>
-			<?php $social_tasks->get_image('field-3-image'); ?>
-			<h4><?php $social_tasks->get_text('field-3-title'); ?></h4>
+			<?php $social_tasks->put_image('field-3-image'); ?>
+			<h4><?php $social_tasks->put_text('field-3-title'); ?></h4>
 			<ul>
-				<?php foreach ($social_tasks->get_text_array('field-3-text') as $li) : ?>
+				<?php foreach ($social_tasks->get_array_fields('field-3-text') as $li) : ?>
 					<li><?php echo $li ?></li>
 				<?php endforeach; ?>
 			</ul>
