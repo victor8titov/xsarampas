@@ -915,7 +915,8 @@ body .xsa-button {
   .skatepark-in-numbers__row-2 .skatepark-in-numbers__number {
     display: block;
     font-size: 5rem;
-    line-height: 5rem; }
+    line-height: 5rem;
+    word-wrap: break-word; }
   .skatepark-in-numbers__row-2 .skatepark-in-numbers__area {
     font-size: 1.8rem; }
   .skatepark-in-numbers__row-2 .skatepark-in-numbers__span-text {
@@ -932,6 +933,9 @@ body .xsa-button {
       display: inline; }
     .skatepark-in-numbers__row-2 div:nth-of-type(2) span {
       margin-top: 27px; }
+    .skatepark-in-numbers__row-2 div:nth-of-type(2) span.skatepark-in-numbers__number {
+      display: inline;
+      font-size: 4.5rem; }
     .skatepark-in-numbers__row-2 div:nth-of-type(2) .skatepark-in-numbers__crowd {
       height: 45px;
       text-align: left; }
@@ -976,7 +980,7 @@ body .xsa-button {
   .skatepark-in-numbers__span-text {
     display: inline-block;
     max-width: 85%;
-    line-height: 1.6rem; }
+    line-height: 1.8rem; }
 
 @media (max-width: 992px) {
   .skatepark-in-numbers {
