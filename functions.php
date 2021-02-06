@@ -1102,3 +1102,6 @@ function canon_paged() {
     }
 }
 add_filter('wpseo_head','canon_paged');
+
+
+require_once 'settings/upload-size-limit.php';
