@@ -12,6 +12,17 @@
 
 ?>
 
+<?php
+//ini_set('upload_max_filesize', '8M');
+$max_upload   = (ini_get('upload_max_filesize'));
+$max_post     = (ini_get('post_max_size'));
+$memory_limit = (int) (ini_get('memory_limit'));
+
+echo ('$max_upload ' . $max_upload);
+echo ('$max_post ' . $max_post);
+echo ('$memory_limit ' . $memory_limit);
+?>
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
