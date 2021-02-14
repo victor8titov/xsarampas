@@ -10,9 +10,9 @@ $list_images = $team->get_array_fields('images', false);
 		<h3>КОМАНДА</h3>
 		<h2>XSA RAMPS</h2>
 	</div>
-	<!-- carousel -->
-	<div class="team__slider">
-		<ul id="mycarousel" class="jcarousel-skin-tango">
+
+	<div class="flexslider team__slider">
+		<ul class="slides">
 			<?php foreach ($list_images as $id_image) : ?>
 				<li>
 					<?php echo $team->get_html_tag_image($id_image); ?>

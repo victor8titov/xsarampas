@@ -1,7 +1,7 @@
 <?php
 /**
  * The template for displaying all pages
- * Template Name: Projects
+ * Template Name: Projects old
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages

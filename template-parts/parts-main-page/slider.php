@@ -3,10 +3,10 @@ $main_slider = new UtilsMetaBox(SLIDER);
 $list_images = $main_slider->get_array_fields('images', false);
 ?>
 
-<!-- slider -->
+<!-- main slider -->
 <?php if (!empty($list_images)) : ?>
 	<div class="row slider_main_page">
-		<div class="flexslider">
+		<div class="flexslider slider_main_page__slider">
 			<ul class="slides">
 				<?php foreach ($list_images as $id_image) : ?>
 					<li>

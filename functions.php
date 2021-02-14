@@ -1,6 +1,6 @@
 <?php
 
-
+require_once 'settings/clearing-header.php';
 require_once 'inc/debug-functions.php';
 require_once 'settings/constants.php';
 require_once 'settings/add-styles.php';
@@ -393,7 +393,7 @@ function twentyseventeen_javascript_detection()
 {
 	echo "<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>\n";
 }
-add_action('wp_head', 'twentyseventeen_javascript_detection', 0);
+//add_action('wp_head', 'twentyseventeen_javascript_detection', 0);
 
 /**
  * Add a pingback url auto-discovery header for singularly identifiable articles.
@@ -404,7 +404,7 @@ function twentyseventeen_pingback_header()
 		printf('<link rel="pingback" href="%s">' . "\n", get_bloginfo('pingback_url'));
 	}
 }
-add_action('wp_head', 'twentyseventeen_pingback_header');
+//add_action('wp_head', 'twentyseventeen_pingback_header');
 
 /**
  * Display custom color CSS.
@@ -429,7 +429,7 @@ function twentyseventeen_colors_css_wrap()
 <?php
 }
 
-add_action('wp_head', 'twentyseventeen_colors_css_wrap');
+//add_action('wp_head', 'twentyseventeen_colors_css_wrap');
 
 
 /**

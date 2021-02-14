@@ -60,7 +60,7 @@ $skatepark_in_numbers = new UtilsMetaBox(SKATEPARK_IN_NUMBERS);
 			<?php if ($skatepark_in_numbers->check_field('field-6-title')) : ?>
 				<span class="skatepark-in-numbers__number"><?php $skatepark_in_numbers->put_text('field-6-title'); ?></span>
 			<?php endif; ?>
-			<span class="skatepark-in-numbers__span-text"><i><?php $skatepark_in_numbers->put_text('field-6-text'); ?></i></span>
+			<span class="skatepark-in-numbers__span-text"><?php $skatepark_in_numbers->put_text('field-6-text'); ?></span>
 		</div>
 		<div>
 			<div>
@@ -72,7 +72,7 @@ $skatepark_in_numbers = new UtilsMetaBox(SKATEPARK_IN_NUMBERS);
 			<?php if ($skatepark_in_numbers->check_field('field-7-title')) : ?>
 				<span class="skatepark-in-numbers__number"><?php $skatepark_in_numbers->put_text('field-7-title'); ?></span>
 			<?php endif; ?>
-			<span class="skatepark-in-numbers__span-text"><i><?php $skatepark_in_numbers->put_text('field-7-text'); ?></i></span>
+			<span class="skatepark-in-numbers__span-text"><?php $skatepark_in_numbers->put_text('field-7-text'); ?></span>
 		</div>
 		<div>
 			<div>
@@ -82,7 +82,7 @@ $skatepark_in_numbers = new UtilsMetaBox(SKATEPARK_IN_NUMBERS);
 				<span class="skatepark-in-numbers__number"><?php $skatepark_in_numbers->put_text('field-8-title'); ?></span>
 				<span class="skatepark-in-numbers__area">м²</span>
 			<?php endif; ?>
-			<span class="skatepark-in-numbers__span-text"><i><?php $skatepark_in_numbers->put_text('field-8-text'); ?></i></span>
+			<span class="skatepark-in-numbers__span-text"><?php $skatepark_in_numbers->put_text('field-8-text'); ?></span>
 		</div>
 	</div>
 </div>
