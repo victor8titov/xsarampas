@@ -34,6 +34,7 @@ function prefix_register_meta_boxes($meta_boxes)
 
 function is_page_main()
 {
+  $id = null;
   //  ищем номер поста в GET and POST переменных
   // Get the current ID
   if (isset($_GET['post'])) $id = $_GET['post'];

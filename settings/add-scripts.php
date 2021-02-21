@@ -2,13 +2,12 @@
 
 function xsa_scripts()
 {
-	debug_ms(check_template_in_admin('project.php'), true);
 	add_scripts_common();
 
 	if (get_post_type() === 'page' && is_front_page()) {
 		// главная страница
 		add_scripts_for_main_page();
-	} else if (is_page_template('projects.php') ) {
+	} else if (is_page_template('projects.php')) {
 		add_scripts_for_projects_page();
 	} else {
 		add_scripts_for_other_pages();
@@ -16,12 +15,13 @@ function xsa_scripts()
 }
 add_action('wp_enqueue_scripts', 'xsa_scripts');
 
-function xsa_scripts_for_admin(){
+function xsa_scripts_for_admin()
+{
 	if (check_template_in_admin('project.php')) {
 		add_scripts_for_projects_page();
 	}
 }
-add_action( 'admin_enqueue_scripts', 'xsa_scripts_for_admin' );
+add_action('admin_enqueue_scripts', 'xsa_scripts_for_admin');
 
 function add_scripts_common()
 {
@@ -41,7 +41,10 @@ function add_scripts_for_projects_page()
 	wp_enqueue_script('project-page', get_theme_file_uri('/assets/js/project-page.js'), array('jquery'), null, false);
 }
 
-function add_scripts_for_other_pages() {}
+function add_scripts_for_other_pages()
+{
+	wp_enqueue_script('flexslider', get_theme_file_uri('/assets/js/libs/jquery.flexslider-min.js'), array('jquery'));
+}
 
 function other()
 {
@@ -57,9 +60,8 @@ function other()
 
 	wp_enqueue_script('jcarousel', get_theme_file_uri('/assets/js/jquery.jcarousel.min.js'), array('jquery'));
 	wp_enqueue_script('fancybox', get_theme_file_uri('/assets/js/jquery.fancybox-1.3.4.js'), array('jquery'));
-	wp_enqueue_script('flexslider', get_theme_file_uri('/assets/js/jquery.flexslider.js'), array('jquery'));
 
-		// Load the html5 shiv.
+	// Load the html5 shiv.
 	wp_enqueue_script('html5', get_theme_file_uri('/assets/js/html5.js'), array(), '3.7.3');
 	wp_script_add_data('html5', 'conditional', 'lt IE 9');
 
@@ -89,6 +91,7 @@ function other()
 
 function check_template_in_admin($template)
 {
+	$id = null;
 	//  ищем номер поста в GET and POST переменных
 	// Get the current ID
 	if (isset($_GET['post'])) $id = $_GET['post'];
@@ -98,9 +101,5 @@ function check_template_in_admin($template)
 	//  Пользуемся скрытыми метополями вордпресс
 	//  для каждой страницы шаблона есть метаполе с именем шаблона
 	//  скрыетое метополе _wp_page_template
-	$current_template = get_post_meta($id, '_wp_page_template', true);
-
-	//  проверяем если шаблон не совпадает
-	return  $current_template !== $template;
+	return $template !== get_post_meta($id, '_wp_page_template', true);
 }
-

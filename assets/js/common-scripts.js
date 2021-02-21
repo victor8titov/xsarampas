@@ -93,7 +93,6 @@ $(document).ready(function () {
 
   $().UItoTop();
   
-  console.log('slick:::: ', $.fn.slick)
   if ($.fn.slick) {
     $(".slider_main_page__slider").slick({
       autoplay: true,
@@ -132,4 +131,14 @@ $(document).ready(function () {
       ],
     });
   }
+
+  if ($.fn.flexslider) {
+    $(".flexslider").flexslider({
+      animation: "slide",
+      animationLoop: true,
+      controlNav: false,
+      touch: true,
+    });
+  }
+  
 });

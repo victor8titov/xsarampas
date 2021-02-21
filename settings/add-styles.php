@@ -17,7 +17,7 @@ add_action( 'wp_enqueue_scripts', 'xsaramps_styles' );
 function add_styles_for_main_page() {
 	wp_enqueue_style( 'xsaramps-style', get_stylesheet_uri() );
 	wp_enqueue_style( 'main-page', get_theme_file_uri('assets/styles/main-page.css'), null);
-	wp_enqueue_style('flexslider', get_theme_file_uri('/assets/css/flexslider.css'), array('xsaramps-style'), '3.2.0');
+	//wp_enqueue_style('flexslider', get_theme_file_uri('/assets/css/flexslider.css'), array('xsaramps-style'), '3.2.0');
 }
 
 function add_styles_for_other_pages() {

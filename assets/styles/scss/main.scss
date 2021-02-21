@@ -1,10 +1,11 @@
 //@import './libs/bootstrap4.3.1/bootstrap.scss';
 @import './libs/normalize8.0.1';
 //@import './libs/flexboxgrid.min';
+@import './libs/flexslider/flexslider';
 
-@import './utilities/color';
-//@import './utilities/fonts';
 // модифицированный стили шрифтов для интеграции.
+//@import './utilities/fonts';
+@import './utilities/color.scss';
 @import './utilities/fonts-compatible';
 @import './common/button';
 //@import './common/shodaw_after_box';
@@ -16,6 +17,7 @@
 // header and footer part
 @import './componets/header';
 @import './componets/footer';
+@import './componets/slider_for_other_pages';
 
 // part main page
 //@import './componets/flawless_skatepark';
@@ -46,20 +48,4 @@ body {
   background-image: url('../images/bg.png');
   background-repeat: repeat;
   background-position: center top;
-  //background-size: cover;
 }
-
-/*
-@media (min-width: 576px) {}
-
-@media (min-width: 768px) {}
-
-@media (min-width: 992px) {}
-
-@media (min-width: 1200px) {}
-
-@media (max-width: 1200px) {}
-@media (max-width: 992px) {}
-@media (max-width: 768px) {}
-@media (max-width: 576px) {}
- */
