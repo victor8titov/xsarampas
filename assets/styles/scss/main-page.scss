@@ -1,9 +1,12 @@
 //@import './libs/bootstrap4.3.1/bootstrap.scss';
 @import './libs/normalize8.0.1';
+@import './libs/slick/slick.scss';
+@import './libs/slick/slick-theme.scss';
 //@import './libs/flexboxgrid.min';
 
 @import './utilities/color';
 @import './utilities/fonts';
+@import './utilities/variables.scss';
 @import './common/button';
 @import './common/shodaw_after_box';
 @import './common/container';

@@ -25,13 +25,12 @@ add_action( 'admin_enqueue_scripts', 'xsa_scripts_for_admin' );
 
 function add_scripts_common()
 {
-	wp_enqueue_script('common-scripts', get_theme_file_uri('/assets/js/common-scripts.js'), array('jquery'));
+	wp_enqueue_script('common-scripts', get_theme_file_uri('/assets/js/common-scripts.js'), array('jquery'), null, false);
 }
 
 function add_scripts_for_main_page()
 {
-	wp_enqueue_script('flexslider', get_theme_file_uri('/assets/js/jquery.flexslider.js'), array('jquery'));
-	wp_enqueue_script('main-page', get_theme_file_uri('/assets/js/main-page.js'), array('jquery', 'common-scripts', 'flexslider'));
+	wp_enqueue_script('slick-slider', get_theme_file_uri('/assets/js/libs/slick/slick.min.js'), array('jquery'));
 }
 
 function add_scripts_for_projects_page()

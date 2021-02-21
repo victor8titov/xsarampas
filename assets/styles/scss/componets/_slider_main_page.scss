@@ -1,12 +1,14 @@
+@import "../utilities/color.scss";
+@import "../utilities/variables.scss";
 
-@media (max-width: 768px) {
-  .slider_main_page {
-    &__slider {
-      .slides {
-        li {
-          height: auto;
-        }
-      }
+.slider_main_page {
+  &__slider {
+    img {
+      width: 100%;
+    }
+
+    .slick-arrow::before {
+      color: $black;
     }
   }
 }

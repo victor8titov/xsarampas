@@ -6,8 +6,8 @@ $list_images = $main_slider->get_array_fields('images', false);
 <!-- main slider -->
 <?php if (!empty($list_images)) : ?>
 	<div class="row slider_main_page">
-		<div class="flexslider slider_main_page__slider">
-			<ul class="slides">
+		<div>
+			<ul class="slider_main_page__slider">
 				<?php foreach ($list_images as $id_image) : ?>
 					<li>
 						<?php echo $main_slider->get_html_tag_image($id_image, 'full', 'eager'); ?>

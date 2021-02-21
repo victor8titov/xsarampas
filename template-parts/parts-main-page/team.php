@@ -11,8 +11,8 @@ $list_images = $team->get_array_fields('images', false);
 		<h2>XSA RAMPS</h2>
 	</div>
 
-	<div class="flexslider team__slider">
-		<ul class="slides">
+	<div>
+		<ul class="team__slider">
 			<?php foreach ($list_images as $id_image) : ?>
 				<li>
 					<?php echo $team->get_html_tag_image($id_image); ?>

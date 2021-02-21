@@ -92,4 +92,44 @@ $(document).ready(function () {
   };
 
   $().UItoTop();
+  
+  console.log('slick:::: ', $.fn.slick)
+  if ($.fn.slick) {
+    $(".slider_main_page__slider").slick({
+      autoplay: true,
+      infinite: true,
+      responsive: [
+        {
+          breakpoint: 573,
+          settings: {
+            arrows: false,
+          },
+        },
+      ],
+    });
+
+    $(".team__slider").slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      autoplay: true,
+      arrows: false,
+      responsive: [
+        {
+          breakpoint: 993,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+          },
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
+    });
+  }
 });
