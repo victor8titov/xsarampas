@@ -23,9 +23,9 @@ get_header(); ?>
 								$query->the_post();
 					?>
 							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-								<div class="box_item" data-ID="<?php echo get_the_ID(); ?>">
-									<div class="item_thumbnail ">
-										<div class="img">
+								<div class="box_item" data-ID="<?php echo get_the_ID(); ?>" >
+									<div class="item_thumbnail" >
+										<div class="img" >
 											<?php the_post_thumbnail('medium'); ?>
 										</div>
 										<h6 class="font_6" style="font-size:16px; line-height:1.3em; height: 40px; padding-left: 3px;">
@@ -62,19 +62,6 @@ get_header(); ?>
 				</script>
 				<div id="true_loadmore">Загрузить ещё</div>
 			<?php endif; ?>
-
-			<a class="fancybox" data-fancybox="images" rel="gallery1" href="http://farm2.staticflickr.com/1669/23976340262_a5ca3859f6_b.jpg" title="Twilight Memories (doraartem)">
-	<img src="http://farm2.staticflickr.com/1669/23976340262_a5ca3859f6_m.jpg" alt="" />
-</a>
-<a class="fancybox" data-fancybox="images" rel="gallery1" href="http://farm2.staticflickr.com/1459/23610702803_83655c7c56_b.jpg" title="Electrical Power Lines and Pylons disappear over t.. (pautliubomir)">
-	<img src="http://farm2.staticflickr.com/1459/23610702803_83655c7c56_m.jpg" alt="" />
-</a>
-<a class="fancybox" data-fancybox="images" rel="gallery1" href="http://farm2.staticflickr.com/1617/24108587812_6c9825d0da_b.jpg" title="Morning Godafoss (Brads5)">
-	<img src="http://farm2.staticflickr.com/1617/24108587812_6c9825d0da_m.jpg" alt="" />
-</a>
-<a class="fancybox" data-fancybox="images" rel="gallery1" href="http://farm4.staticflickr.com/3691/10185053775_701272da37_b.jpg" title="Vertical - Special Edition! (cedarsphoto)">
-	<img src="http://farm4.staticflickr.com/3691/10185053775_701272da37_m.jpg" alt="" />
-</a>
 
 			<?php
 				while (have_posts()) : the_post();
