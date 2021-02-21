@@ -38,7 +38,8 @@ function add_scripts_for_projects_page()
 	if (!did_action('wp_enqueue_media')) {
 		wp_enqueue_media();
 	}
-	wp_enqueue_script('project-page', get_theme_file_uri('/assets/js/project-page.js'), array('jquery'), null, false);
+	wp_enqueue_script('fancybox', get_theme_file_uri('/assets/js/libs/jquery.fancybox.min.js'), array('jquery'), null, false);
+	wp_enqueue_script('project-page', get_theme_file_uri('/assets/js/project-page.js'), array('jquery', 'fancybox'), null, false);
 }
 
 function add_scripts_for_other_pages()

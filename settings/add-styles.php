@@ -4,8 +4,12 @@ function xsaramps_styles() {
 	if ( get_post_type() === 'page' && is_front_page()) {
 		// главная страница
 		add_styles_for_main_page();
-	} else {
+	}	else {
 		add_styles_for_other_pages();
+	}
+
+	if (is_page_template('projects.php')) {
+		add_styles_for_projects_page();
 	}
 
 	add_styles_common_for_libraries();
@@ -17,7 +21,10 @@ add_action( 'wp_enqueue_scripts', 'xsaramps_styles' );
 function add_styles_for_main_page() {
 	wp_enqueue_style( 'xsaramps-style', get_stylesheet_uri() );
 	wp_enqueue_style( 'main-page', get_theme_file_uri('assets/styles/main-page.css'), null);
-	//wp_enqueue_style('flexslider', get_theme_file_uri('/assets/css/flexslider.css'), array('xsaramps-style'), '3.2.0');
+}
+
+function add_styles_for_projects_page() {
+	wp_enqueue_style('fancybox', get_theme_file_uri('/assets/styles/scss/libs/jquery.fancybox.min.css'), array('xsaramps-style'), '3.2.0');	
 }
 
 function add_styles_for_other_pages() {

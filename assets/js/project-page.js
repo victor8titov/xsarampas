@@ -1,4 +1,12 @@
+var $ = jQuery;
 jQuery(function($){
+	
+	if ($.fn.fancybox) {
+		$('[data-fancybox="gallery"]').fancybox({
+			// Options will go here
+		});
+	}
+	
 	
 	/*
 	*			page template Каталог

@@ -92,7 +92,7 @@ $(document).ready(function () {
   };
 
   $().UItoTop();
-  
+
   if ($.fn.slick) {
     $(".slider_main_page__slider").slick({
       autoplay: true,
@@ -140,5 +140,4 @@ $(document).ready(function () {
       touch: true,
     });
   }
-  
 });
