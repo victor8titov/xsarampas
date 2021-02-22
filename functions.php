@@ -643,12 +643,12 @@ function true_image_uploader_field($name, $value = '')
 	}
 ?>
 	<span>
-		<input type="hidden" name="<? echo $name ?>" id="<? echo $name ?>" value="<? echo $value ?>" />
+		<input type="hidden" name="<?php echo $name ?>" id="<?php echo $name ?>" value="<?php echo $value ?>" />
 		<button class="upload_image_button button">Загрузить</button>
 		<button class="remove_image_button button">&times;</button>
 	</span>
 	<div class="img_box">
-		<img id="img_park" data-src="<? echo $default ?>" src="<?php echo $src ?>" width="200px" style="padding: 10px 202px" />
+		<img id="img_park" data-src="<?php echo $default ?>" src="<?php echo $src ?>" width="200px" style="padding: 10px 202px" />
 	</div>
 
 
@@ -752,7 +752,6 @@ add_action('admin_head', 'my_picture_for_slider', 1);
 
 function my_picture_for_slider()
 {
-
 	add_meta_box('picture_for_slider', 'Изображения для Галереи', 'add_box_for_slider', 'projectsposts', 'normal', 'high');
 }
 
@@ -760,6 +759,7 @@ function my_picture_for_slider()
 //	добовляем данные в метополе
 function add_box_for_slider($post)
 {
+	var_dump(get_post_meta($post->ID));
 	$stackPic = get_post_meta($post->ID, 'stackPic', true);
 	if (!$stackPic) $stackPic = array();
 	$name = 'stackPic[]';
@@ -784,9 +784,9 @@ function add_box_for_slider($post)
 			}
 		?>
 			<div class="item_gallery" data-url="<?php echo get_stylesheet_directory_uri() . '/assets/images/image-upload-field.png'; ?>" style=" width: 150px; padding: 5px; display:inline-block;">
-				<img id="item_img" data-src="<? echo $default ?>" src="<?php echo $src ?>" width="150px" />
+				<img id="item_img" data-src="<?php echo $default ?>" src="<?php echo $src ?>" width="150px" />
 				<div style=" width: 150px; text-align: center;">
-					<input id="item_input" type="hidden" name="<? echo $name ?>" value="<? echo $value ?>" />
+					<input id="item_input" type="hidden" name="<?php echo $name ?>" value="<?php echo $value ?>" />
 					<button class="item_button_upload button">Загрузить</button>
 					<button class="item_button_remove button">&times;</button>
 				</div>
