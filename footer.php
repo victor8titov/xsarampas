@@ -198,10 +198,8 @@ for (i = 0; i < acc.length; i++) {
 </script>
 
 <script type="text/javascript">
-console.log(':::check sript', document)
    document.addEventListener( 'wpcf7mailsent', function( event ) {
       var formId = event.detail.contactFormId
-      console.log('::::formId', formId);
       if ( '4153' === formId || '268' === formId ) {
          yaCounter28627086.reachGoal('order');
          ga('send', 'event', 'feedback', 'order');
