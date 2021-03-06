@@ -64,7 +64,7 @@ get_header(); ?>
 				
 				<br /><br />
 				
-				<!-- скейт парки в цифрах -->
+				<!-- скейт-парки в цифрах -->
 				<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					
@@ -84,7 +84,7 @@ get_header(); ?>
 							<div class="s25_left s25_shd"></div>
 							<div class="s25_right s25_shd"></div>
 							<div id="comp-ion142wjbg" class="s25bg"></div>
-							<div id="comp-ion142wjinlineContent" class="s25inlineContent"><div style="text-align: center;" class="s6" id="comp-ion142wp"><div class="font_2">СКЕЙТ ПАРКИ В ЦИФРАХ</div></div></div>
+							<div id="comp-ion142wjinlineContent" class="s25inlineContent"><div style="text-align: center;" class="s6" id="comp-ion142wp"><div class="font_2">СКЕЙТ-ПАРКИ В ЦИФРАХ</div></div></div>
 						</div>
 					
 					<div style="width: 230px; position: absolute; left: 55px; top: 66px;" class="s6" id="comp-ion142x0"><div style="text-align:right; font-size:28px;" class="font_2"><span class="color_11"><span style="font-size:28px;">XSA RAMPS</span></span></div>
@@ -100,7 +100,7 @@ get_header(); ?>
 					<div class="font_2" style="font-size:16px;"><span style="color:#ffffff;">строительства лучших парков</span></div>
 					</div><div style="position: absolute; left: 477px; top: 179px; width: 38px; height: 40px;" data-exact-height="40" data-content-padding-horizontal="0" data-content-padding-vertical="0" title="" class="s5" id="comp-ion142y4" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142y4"><div style="width: 38px; height: 40px;" id="comp-ion142y4link" class="s5link" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142y4.0"><div id="comp-ion142y4img" data-style="" class="s5img" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142y4.0.0" style="position: relative; width: 38px; height: 40px;"><div class="s5imgpreloader" id="comp-ion142y4imgpreloader" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142y4.0.0.0"></div><img id="comp-ion142y4imgimage" alt="" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142y4.0.0.$image" style="width: 38px; height: 40px; object-fit: contain;" src="/wp-content/themes/xsarampas/assets/images/bbdd64_118828daa26841beb8f6b550994ce6e4.png"></div></div></div><div style="width: 170px; position: absolute; left: 0px; top: 231px;" class="s6" id="comp-ion142ya" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142ya"><div class="font_2" style="font-size:50px; text-align:center;"><span style="font-size:50px;"><span class="color_11">60</span></span></div>
 					<div class="font_2" style="font-size:16px; text-align:center;"><span style="color:#ffffff;">уникальных</span></div>
-					<div class="font_2" style="font-size:16px; text-align:center;"><span style="color:#ffffff;">скейт парков</span></div>
+					<div class="font_2" style="font-size:16px; text-align:center;"><span style="color:#ffffff;">скейт-парков</span></div>
 					</div><div style="width: 182px; position: absolute; left: 188px; top: 245px;" class="s6" id="comp-ion142yf" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142yf"><div style="font-size:50px; text-align:center;" class="font_2"><span style="font-size:50px;"><span class="color_11">10000</span></span></div>
 					<div style="font-size:16px; text-align:center;" class="font_2"><font color="#ffffff"><i>человек начали&nbsp;</i></font><i style="color:rgb(255, 255, 255);">заниматься</i></div>
 					</div><div style="width: 170px; position: absolute; left: 387px; top: 233px;" class="s6" id="comp-ion142yj" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142yj"><div style="font-size:50px; text-align:center;" class="font_2"><span style="font-size:50px;"><span class="color_11">250</span></span></div>
@@ -135,7 +135,7 @@ get_header(); ?>
 				  <ul class="slides">
 						<li><img src="<?php echo get_site_url();?>/wp-content/themes/xsarampas/assets/images/sliders/main/bbdd64_47158d7c71a64f60bc4d52c06f5dcc74-mv2.jpg" alt="Мини рампа XSA Ramps | Роза хутор" /><div class="s14imageItemtitle">Мини рампа XSA Ramps | Роза хутор</div></li>
 						<li><img src="<?php echo get_site_url();?>/wp-content/themes/xsarampas/assets/images/sliders/main/bbdd64_a8405b9e45cc43cdbbdec73062501886-mv2.jpg" alt="Мини рампа XSA Ramps Лазаревское" /><div class="s14imageItemtitle">Мини рампа XSA Ramps Лазаревское</div></li>
-						<li><img src="<?php echo get_site_url();?>/wp-content/themes/xsarampas/assets/images/sliders/main/bbdd64_097bf915b9d44c7ea3b386d85a8b021e-mv2.jpg" alt="Анапа Скейт Парк" /><div class="s14imageItemtitle">Анапа Скейт Парк</div></li>
+						<li><img src="<?php echo get_site_url();?>/wp-content/themes/xsarampas/assets/images/sliders/main/bbdd64_097bf915b9d44c7ea3b386d85a8b021e-mv2.jpg" alt="Анапа Скейт-Парк" /><div class="s14imageItemtitle">Анапа Скейт-Парк</div></li>
 						<li><img src="<?php echo get_site_url();?>/wp-content/themes/xsarampas/assets/images/sliders/main/bbdd64_d16bba32a8a44433810d48ebb58eb2e2-mv2_d_3330_1873_s_2.jpg" alt="House of Vans Face & Laces" /><div class="s14imageItemtitle">House of Vans Face & Laces</div></li>
 						<li><img src="<?php echo get_site_url();?>/wp-content/themes/xsarampas/assets/images/sliders/main/bbdd64_7d8f1a98f2214f159e23e2b0f5ef675d.jpg" alt="Мини Рампа Роза Хутор" /><div class="s14imageItemtitle">Мини Рампа Роза Хутор</div></li>
 						<li><img src="<?php echo get_site_url();?>/wp-content/themes/xsarampas/assets/images/sliders/main/bbdd64_2d598f3feab54beea39700d723f6291b-mv2.jpg" alt="" /><div class="s14imageItemtitle">Скейт плаза Краснодар</div></li>
@@ -158,7 +158,7 @@ get_header(); ?>
 				
 				<p style="text-align: center;">Возникли вопросы? Вы можете задать их по бесплатной горячей линии! Тел.: 8-800-500-90-46.</p>
 				
-				<div style="text-align: center; padding: 20px 0; margin: 0px auto 10px auto;"><a style="text-align: center; margin: 0 auto; white-space: nowrap; width: 300px;" href="/feedback" class="s7link-ver-2">Заказать скейт парк</a></div>				
+				<div style="text-align: center; padding: 20px 0; margin: 0px auto 10px auto;"><a style="text-align: center; margin: 0 auto; white-space: nowrap; width: 300px;" href="/feedback" class="s7link-ver-2">Заказать скейт-парк</a></div>				
 				
 				<!-- video -->
 				<div class="video">

@@ -5,7 +5,7 @@ $social_tasks = new UtilsMetaBox(SOCIAL_TASKS);
 <!-- social tasks -->
 <div class="social-tasks">
 	<div class="social-tasks__title">
-		<h3>СКЕЙТ ПАРК, КАК</h3>
+		<h3>СКЕЙТ-ПАРК, КАК</h3>
 		<h2>РЕШЕНИЕ СОЦИАЛЬНЫХ ЗАДАЧ</h2>
 	</div>
 	<div class="social-tasks__body">

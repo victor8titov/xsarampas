@@ -33,7 +33,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <header class="header">
    <!-- side left -->
    <div class="header__left-side">
-      <h4>ПРОЕКТИРОВАНИЕ СТРОИТЕЛЬСТВО СКЕЙТ ПАРКОВ</h4>
+      <h4>ПРОЕКТИРОВАНИЕ СТРОИТЕЛЬСТВО СКЕЙТ-ПАРКОВ</h4>
       <h6>Лидеры индустрии, передовые технологии</h6>
    </div>
    <!-- side middle -->
@@ -80,7 +80,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li><a href="<?php echo get_site_url();?>/katalog/betonnye-skejtparki/">Бетонные скейт-парки</a></li>
             <li><a href="<?php echo get_site_url();?>/katalog/extrim-parki/">Экстрим парки</a></li>
             <li><a href="<?php echo get_site_url();?>/katalog/pamp-treki-bmx/">Памп треки для BMX</a></li>
-            <li><a href="<?php echo get_site_url();?>/katalog/bouly-i-puly/">Бассейны для скейт парков</a></li>
+            <li><a href="<?php echo get_site_url();?>/katalog/bouly-i-puly/">Бассейны для скейт-парков</a></li>
          </ul>
       </li>
       <li><a href="<?php echo get_site_url();?>/news/">НОВОСТИ</a></li>

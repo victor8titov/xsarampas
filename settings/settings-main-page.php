@@ -55,7 +55,7 @@ function meta_boxes_for_flawless_skatepark()
 
   $config = array(
     'id' => $prefix,
-    'title' => 'Информационный блок "Что такое безупречный скейт парк"',
+    'title' => 'Информационный блок "Что такое безупречный скейт-парк"',
     'post_types' => 'page',
     'fields' => array(),
   );
@@ -101,7 +101,7 @@ function  meta_boxes_for_social_tasks()
 
   $config = array(
     'id' => $prefix,
-    'title' => 'Информационный блок "СКЕЙТ ПАРК, КАК РЕШЕНИЕ СОЦИАЛЬНЫХ ЗАДАЧ"',
+    'title' => 'Информационный блок "СКЕЙТ-ПАРК, КАК РЕШЕНИЕ СОЦИАЛЬНЫХ ЗАДАЧ"',
     'post_types' => 'page',
     'fields' => array(),
   );
@@ -382,7 +382,7 @@ function meta_boxes_for_about_skatepark()
 
   $config = array(
     'id' => $prefix,
-    'title' => 'Информационный блок "О скейт парках"',
+    'title' => 'Информационный блок "О скейт-парках"',
     'post_types' => 'page',
     'fields' => array(),
   );

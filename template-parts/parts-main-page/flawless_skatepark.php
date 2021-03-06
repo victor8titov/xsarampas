@@ -6,7 +6,7 @@ $flawless_skatepark = new UtilsMetaBox(FLAWLESS_SKATEPARK);
 <div class="flawless-skatepark">
 	<div class="flawless-skatepark__title">
 		<h3>ЧТО ТАКОЕ</h3>
-		<h2>БЕЗУПРЕЧНЫЙ СКЕЙТ ПАРК</h2>
+		<h2>БЕЗУПРЕЧНЫЙ СКЕЙТ-ПАРК</h2>
 	</div>
 	<!-- left side -->
 	<div class="flawless-skatepark__left-side">

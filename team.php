@@ -35,7 +35,7 @@ get_header(); ?>
 			<?php if ($_SERVER["REQUEST_URI"] == '/about/') { ?>
 			<div class="row s6" style="padding: 40px 0">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<p style="font-size:16px;"><span style="font-family:courier new,courier-ps-w01,courier-ps-w02,courier-ps-w10,monospace;">После 11 лет успешной экспериментальной работы и изготовления более 60 скейт парков по всей России, мы по-настоящему стали профессионалами и лидерами в этой индустрии.</span></p>
+					<p style="font-size:16px;"><span style="font-family:courier new,courier-ps-w01,courier-ps-w02,courier-ps-w10,monospace;">После 11 лет успешной экспериментальной работы и изготовления более 60 скейт-парков по всей России, мы по-настоящему стали профессионалами и лидерами в этой индустрии.</span></p>
 					<p style="font-size:16px;"><span style="font-family:courier new,courier-ps-w01,courier-ps-w02,courier-ps-w10,monospace;">Наша команда строителей, проектировщиков и дизайнеров окончательно сформировалась и в нее вошли лучшие специалисты в своем деле со всех частей России и стран СНГ.</span></p>
 					<p style="font-size:16px;"><span style="font-family:courier new,courier-ps-w01,courier-ps-w02,courier-ps-w10,monospace;">От Киева до Нового Уренгоя, от Санкт-Петербурга до Краснодара. Каждый из которых профессионально катается на доске, велосипеде или роликах. И наши знания, профессионализм, креативность позволяют получать на выходе качественный продукт, который так ценится большинством райдеров.</span></p>
 				</div>
