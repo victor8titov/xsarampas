@@ -24,7 +24,7 @@ function add_styles_for_main_page() {
 }
 
 function add_styles_for_projects_page() {
-	wp_enqueue_style('fancybox', get_theme_file_uri('/assets/styles/scss/libs/jquery.fancybox.min.css'), array('xsaramps-style'), '3.3.0');	
+	wp_enqueue_style('fancybox', get_theme_file_uri('/assets/styles/scss/libs/jquery.fancybox.min.css'), array('xsaramps-style'));	
 }
 
 function add_styles_for_other_pages() {
@@ -38,9 +38,6 @@ function add_styles_for_other_pages() {
 function add_styles_common_for_libraries() {
 	wp_enqueue_style('bootstrarp', get_theme_file_uri('/assets/css3.2.0/bootstrap.min.css'), array('xsaramps-style'), '3.2.1');
 	wp_enqueue_style('ui.totop', get_theme_file_uri('/assets/css/ui.totop.css'), array('xsaramps-style'), '3.2.1');
-	
-	//wp_enqueue_style('corusel', get_theme_file_uri('/assets/css/corusel.css'), array('xsaramps-style'), '3.2.0');
-	//wp_enqueue_style('jquery.fancybox-1.3.4', get_theme_file_uri('/assets/css/jquery.fancybox-1.3.4.css'), array('xsaramps-style'), '3.2.0');	
 }
 
 function add_styles_for_admin() {
