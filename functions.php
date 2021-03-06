@@ -918,9 +918,6 @@ function canon_paged()
 }
 add_filter('wpseo_head', 'canon_paged');
 
-
-
-
 // чтобы убрать высоту и ширину для всех вставляемых изображений
 add_filter('wp_get_attachment_image_src', 'delete_width_height', 100, 4);
 
