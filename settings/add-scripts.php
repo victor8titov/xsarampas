@@ -38,8 +38,8 @@ function add_scripts_for_projects_page()
 	if (!did_action('wp_enqueue_media')) {
 		wp_enqueue_media();
 	}
-	wp_enqueue_script('fancybox', get_theme_file_uri('/assets/js/libs/jquery.fancybox.min.js'), array('jquery'), null, false);
-	wp_enqueue_script('project-page', get_theme_file_uri('/assets/js/project-page.js'), array('jquery', 'fancybox'), '1.0', false);
+	wp_enqueue_script('xsa_fancybox', get_theme_file_uri('/assets/js/libs/jquery.fancybox.min.js'), array('jquery'), null, false);
+	wp_enqueue_script('project-page', get_theme_file_uri('/assets/js/project-page.js'), array('jquery', 'xsa_fancybox'), '1.0', false);
 }
 
 function add_scripts_for_other_pages()
