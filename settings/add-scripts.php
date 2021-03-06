@@ -25,12 +25,12 @@ add_action('admin_enqueue_scripts', 'xsa_scripts_for_admin');
 
 function add_scripts_common()
 {
-	wp_enqueue_script('common-scripts', get_theme_file_uri('/assets/js/common-scripts.js'), array('jquery'), null, false);
+	wp_enqueue_script('common-scripts', get_theme_file_uri('/assets/js/common-scripts.js'), array('jquery'), '1.0', false);
 }
 
 function add_scripts_for_main_page()
 {
-	wp_enqueue_script('slick-slider', get_theme_file_uri('/assets/js/libs/slick/slick.min.js'), array('jquery'));
+	wp_enqueue_script('slick-slider', get_theme_file_uri('/assets/js/libs/slick/slick.min.js'), array('jquery'), '1.0');
 }
 
 function add_scripts_for_projects_page()
@@ -38,13 +38,13 @@ function add_scripts_for_projects_page()
 	if (!did_action('wp_enqueue_media')) {
 		wp_enqueue_media();
 	}
-	wp_enqueue_script('fancybox', get_theme_file_uri('/assets/js/libs/jquery.fancybox.min.js'), array('jquery'), null, false);
-	wp_enqueue_script('project-page', get_theme_file_uri('/assets/js/project-page.js'), array('jquery', 'fancybox'), null, false);
+	wp_enqueue_script('fancybox', get_theme_file_uri('/assets/js/libs/jquery.fancybox.min.js'), array('jquery'), '1.0', false);
+	wp_enqueue_script('project-page', get_theme_file_uri('/assets/js/project-page.js'), array('jquery', 'fancybox'), '1.0', false);
 }
 
 function add_scripts_for_other_pages()
 {
-	wp_enqueue_script('flexslider', get_theme_file_uri('/assets/js/libs/jquery.flexslider-min.js'), array('jquery'));
+	wp_enqueue_script('flexslider', get_theme_file_uri('/assets/js/libs/jquery.flexslider-min.js'), array('jquery'), '1.0');
 }
 
 function other()
