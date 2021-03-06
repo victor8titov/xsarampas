@@ -7,6 +7,7 @@ require_once 'settings/add-styles.php';
 require_once 'settings/add-scripts.php';
 require_once 'settings/settings-main-page.php';
 require_once 'inc/utils-for-meta-box.php';
+require_once 'settings/upload-size-limit.php';
 
 function artabr_opengraph_fix_yandex($lang)
 {
@@ -921,11 +922,11 @@ add_filter('wpseo_head', 'canon_paged');
 
 
 // чтобы убрать высоту и ширину для всех вставляемых изображений
-add_filter('wp_get_attachment_image_src','delete_width_height', 100, 4);
+add_filter('wp_get_attachment_image_src', 'delete_width_height', 100, 4);
 
-function delete_width_height($image, $attachment_id, $size, $icon){
-
-    $image[1] = '';
-    $image[2] = '';
-    return $image;
+function delete_width_height($image, $attachment_id, $size, $icon)
+{
+	$image[1] = '';
+	$image[2] = '';
+	return $image;
 }
