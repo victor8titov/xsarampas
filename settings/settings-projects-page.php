@@ -7,7 +7,7 @@ function deregister_javascript_nextgen_gallery_plugin()
       {
         wp_deregister_script('fancybox'); 
         wp_deregister_style('fancybox');
-        //wp_deregister_script('ngg_lightbox_context');
+        wp_deregister_script('ngg_lightbox_context');
       } 
  } 
 
