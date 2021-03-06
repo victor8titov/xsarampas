@@ -207,5 +207,86 @@ for (i = 0; i < acc.length; i++) {
    });
 </script>
 
+<script>
+<!-- Получить UTM-метки в виде urlencoded -->
+function webjack_get_utm_from_cookie() {
+	try {
+		var utm = 
+		'&utm_source=' + webjack_get_cookie('utm_source') +
+		'&utm_medium=' + webjack_get_cookie('utm_medium') +
+		'&utm_campaign=' + webjack_get_cookie('utm_campaign') +
+		'&utm_content=' + webjack_get_cookie('utm_content') +
+		'&utm_term=' + webjack_get_cookie('utm_term') +
+		'&roistat=' + webjack_get_cookie('roistat_visit');
+		return utm;
+	} catch (err) {
+		console.log(err);
+	}
+};
+
+
+<!-- Сохранить UTM-метки в виде сookie -->
+function webjack_set_utm_to_cookie() {
+	try {
+		let utm ={
+			utm_source: webjack_get_url_parameter('utm_source'),
+			utm_medium: webjack_get_url_parameter('utm_medium'),
+			utm_campaign:  webjack_get_url_parameter('utm_campaign'),
+			utm_content: webjack_get_url_parameter('utm_content'),
+			utm_term: webjack_get_url_parameter('utm_term')
+		};
+		
+		var utm_update = false;
+		for (key in utm) {
+			if (utm[key] != "" ) { 
+				utm_update = true;
+			}
+		}		
+		
+		if (utm_update) { 
+			for (key in utm) {
+				let updatedCookie = encodeURIComponent(key) + "=" + encodeURIComponent(utm[key]);
+				document.cookie = updatedCookie;
+			}
+		}		
+	} catch (err) {
+		console.log(err);
+	}
+};
+
+
+<!-- Получить параметры URL -->
+function webjack_get_url_parameter(name) {
+	try {
+		name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+		var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+		var results = regex.exec(location.search);
+		return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+	} catch (err) {
+		console.log(err);
+	}
+};
+
+
+<!-- Получить значение cookie -->
+function webjack_get_cookie(name) {
+	try {
+		let matches = document.cookie.match(new RegExp(
+		"(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+		));
+		return matches ? decodeURIComponent(matches[1]) : "";
+	} catch (err) {
+		console.log(err);
+	}
+}
+
+
+<!-- Подключить отправку данных форм на webhook webjack.ru -->
+	webjack_set_utm_to_cookie();
+	$('form').on('submit', function () {
+      $.post('https://webjack.ru/webhooks/http/b86f5804aa964b6a809b626b94fb5e61/', $(this).serialize()+webjack_get_utm_from_cookie());
+    })
+</script>
+
 </body>
 </html>
