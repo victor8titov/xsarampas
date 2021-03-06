@@ -19,7 +19,7 @@ function xsaramps_styles() {
 add_action( 'wp_enqueue_scripts', 'xsaramps_styles' );
 
 function add_styles_for_main_page() {
-	wp_enqueue_style( 'xsaramps-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'xsaramps-style', get_stylesheet_uri(), null, '1.0' );
 	wp_enqueue_style( 'main-page', get_theme_file_uri('assets/styles/main-page.css'), null, '1.0');
 }
 
@@ -28,11 +28,11 @@ function add_styles_for_projects_page() {
 }
 
 function add_styles_for_other_pages() {
-	wp_enqueue_style( 'xsaramps-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'xsaramps-style', get_stylesheet_uri(), null, '1.0' );
 	wp_enqueue_style( 'main', get_theme_file_uri('assets/styles/main.css'), null, '1.0');
 	//wp_enqueue_style( 'main', get_theme_file_uri('assets/styles/main.min.css'), null);
 	
-	wp_enqueue_style( 'twentyseventeen-fonts', twentyseventeen_fonts_url(), array(), null );
+	wp_enqueue_style( 'twentyseventeen-fonts', twentyseventeen_fonts_url(), array(), null, '1.0' );
 }
 
 function add_styles_common_for_libraries() {
