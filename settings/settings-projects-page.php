@@ -5,8 +5,7 @@ function deregister_javascript_nextgen_gallery_plugin()
  { 
     if ( is_page_template('projects.php') ) 
       {
-        wp_deregister_script('photocrati-lightbox'); 
-        wp_deregister_style('photocrati-lightbox');
+        wp_deregister_style('ngg_lightbox_context');
         wp_deregister_script('ngg_lightbox_context');
       } 
  } 
