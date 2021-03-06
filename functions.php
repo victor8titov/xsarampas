@@ -6,6 +6,7 @@ require_once 'settings/constants.php';
 require_once 'settings/add-styles.php';
 require_once 'settings/add-scripts.php';
 require_once 'settings/settings-main-page.php';
+require_once 'settings/settings-projects-page.php';
 require_once 'inc/utils-for-meta-box.php';
 require_once 'settings/upload-size-limit.php';
 
