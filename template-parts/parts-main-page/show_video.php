@@ -2,7 +2,7 @@
 $show_video = new UtilsMetaBox(SHOW_VIDEO);
 ?>
 
-<?php if ($show_video->check_field('is_show') && $show_video->check_field('iframe')) : ?>
+<?php if ($show_video->check_field('is_show')) : ?>
 	<!-- video block -->
 	<div class="row">
 		<div class="video">
