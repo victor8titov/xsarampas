@@ -6,6 +6,7 @@ function deregister_javascript_nextgen_gallery_plugin()
     if ( is_page_template('projects.php') ) 
       {
         wp_deregister_style('fancybox-0');
+        wp_dequeue_style('fancybox-0');
         wp_deregister_script('ngg_lightbox_context');
       } 
  } 
