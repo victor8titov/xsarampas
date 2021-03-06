@@ -1,0 +1,63 @@
+.social-tasks {
+  margin-top: 95px;
+
+  h2 {
+    margin: 0;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  h4 {
+    margin-top: 25px;
+    margin-bottom: 22px;
+    color: $blue;
+    text-align: center;
+  }
+
+  ul {
+    padding-left: 10px;
+  }
+
+  li {
+    margin-bottom: 10px;
+    list-style: disc;
+  }
+
+  &__title {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  &__body {
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-around;
+
+    div {
+      flex-basis: 33.3%;
+      max-width: 33.3%;
+      padding: 0 12px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .social-tasks {
+    &__body {
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+
+      div {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-top: 30px;
+      }
+    }
+  }
+}

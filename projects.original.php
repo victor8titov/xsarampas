@@ -1,7 +1,7 @@
 <?php
 /**
  * The template for displaying all pages
- * Template Name: Projects
+ * Template Name: Projects old
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -679,7 +679,7 @@ get_header(); ?>
 									<li><div class="flex-slide"><a rel="group" class="project_item"  href='/wp-content/uploads/2017/03/bbdd64_354d72dd4e3743718621295be6531e9a.jpg'><img width="1" height="1" src="/wp-content/uploads/2017/03/bbdd64_354d72dd4e3743718621295be6531e9a.jpg" class="attachment-thumbnail size-thumbnail" alt="" sizes="100vw" /></a></div></li>
 							</ul>
 							</div>
-							<h6 class="font_6" style="font-size:16px; line-height:1.3em;"><span style="font-size:16px;"><span>Скейт парк KickScooter</span></span></h6>
+							<h6 class="font_6" style="font-size:16px; line-height:1.3em;"><span style="font-size:16px;"><span>Скейт-парк KickScooter</span></span></h6>
 					</div>
 					
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>

@@ -92,7 +92,7 @@ get_header(); ?>
 
 				<br />
 
-				<div style="text-align: center; padding: 20px 0; margin: 0 auto;"><a style="text-align: center; margin: 0 auto;  white-space: nowrap; width: 300px;" href="/feedback" class="s7link-ver-2">Расчитать стоимость скейт парка</a></div>
+				<div style="text-align: center; padding: 20px 0; margin: 0 auto;"><a style="text-align: center; margin: 0 auto;  white-space: nowrap; width: 300px;" href="/feedback" class="s7link-ver-2">Расчитать стоимость скейт-парка</a></div>
 				
 				<br />
 				

@@ -62,7 +62,7 @@ get_header(); ?>
 						<div class="s25_left s25_shd"></div>
 						<div class="s25_right s25_shd"></div>
 						<div id="comp-ion142wjbg" class="s25bg"></div>
-						<div id="comp-ion142wjinlineContent" class="s25inlineContent"><div style="text-align: center;" class="s6" id="comp-ion142wp"><div class="font_2">СКЕЙТ ПАРКИ В ЦИФРАХ</div></div></div>
+						<div id="comp-ion142wjinlineContent" class="s25inlineContent"><div style="text-align: center;" class="s6" id="comp-ion142wp"><div class="font_2">СКЕЙТ-ПАРКИ В ЦИФРАХ</div></div></div>
 					</div>
 				
 				<div style="width: 230px; position: absolute; left: 55px; top: 66px;" class="s6" id="comp-ion142x0"><div style="text-align:right; font-size:28px;" class="font_2"><span class="color_11"><span style="font-size:28px;">XSA RAMPS</span></span></div>
@@ -78,7 +78,7 @@ get_header(); ?>
 				<div class="font_2" style="font-size:16px;"><span style="color:#ffffff;">строительства лучших парков</span></div>
 				</div><div style="position: absolute; left: 477px; top: 179px; width: 38px; height: 40px;" data-exact-height="40" data-content-padding-horizontal="0" data-content-padding-vertical="0" title="" class="s5" id="comp-ion142y4" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142y4"><div style="width: 38px; height: 40px;" id="comp-ion142y4link" class="s5link" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142y4.0"><div id="comp-ion142y4img" data-style="" class="s5img" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142y4.0.0" style="position: relative; width: 38px; height: 40px;"><div class="s5imgpreloader" id="comp-ion142y4imgpreloader" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142y4.0.0.0"></div><img id="comp-ion142y4imgimage" alt="" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142y4.0.0.$image" style="width: 38px; height: 40px; object-fit: contain;" src="/wp-content/themes/xsarampas/assets/images/bbdd64_118828daa26841beb8f6b550994ce6e4.png"></div></div></div><div style="width: 170px; position: absolute; left: 0px; top: 231px;" class="s6" id="comp-ion142ya" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142ya"><div class="font_2" style="font-size:50px; text-align:center;"><span style="font-size:50px;"><span class="color_11">60</span></span></div>
 				<div class="font_2" style="font-size:16px; text-align:center;"><span style="color:#ffffff;">уникальных</span></div>
-				<div class="font_2" style="font-size:16px; text-align:center;"><span style="color:#ffffff;">скейт парков</span></div>
+				<div class="font_2" style="font-size:16px; text-align:center;"><span style="color:#ffffff;">скейт-парков</span></div>
 				</div><div style="width: 182px; position: absolute; left: 188px; top: 245px;" class="s6" id="comp-ion142yf" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142yf"><div style="font-size:50px; text-align:center;" class="font_2"><span style="font-size:50px;"><span class="color_11">10000</span></span></div>
 				<div style="font-size:16px; text-align:center;" class="font_2"><font color="#ffffff"><i>человек начали&nbsp;</i></font><i style="color:rgb(255, 255, 255);">заниматься</i></div>
 				</div><div style="width: 170px; position: absolute; left: 387px; top: 233px;" class="s6" id="comp-ion142yj" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142yj"><div style="font-size:50px; text-align:center;" class="font_2"><span style="font-size:50px;"><span class="color_11">250</span></span></div>
@@ -96,7 +96,7 @@ get_header(); ?>
 			</div>
 	</div>
 		
-	<!-- скейт парки в цифрах -->
+	<!-- скейт-парки в цифрах -->
 	<div class="row">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">					
 					
@@ -107,7 +107,7 @@ get_header(); ?>
 						<div style="font-size:24px;" class="font_2"><span style="font-size:24px;">ЧТО ТАКОЕ</span></div>
 					</div>
 					<div class="s6" id="comp-ion142hp" style="padding-bottom: 73px; text-align: center;">
-						<div style="font-size:36px;" class="font_2"><span style="color:#1BB7EE;"><span style="font-size:36px;">БЕЗУПРЕЧНЫЙ СКЕЙТ ПАРК</span></span></div>
+						<div style="font-size:36px;" class="font_2"><span style="color:#1BB7EE;"><span style="font-size:36px;">БЕЗУПРЕЧНЫЙ СКЕЙТ-ПАРК</span></span></div>
 					</div></div>
 					
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
@@ -122,7 +122,7 @@ get_header(); ?>
 						
 						<div style="margin-left: 70px;width: 218px;" class="s6" id="comp-ion142i9"><div style="font-size:16px;" class="font_2"><span style="font-size:16px;"><span style="color:#1BB7EE;">АКТУАЛЬНЫЕ ПЛОЩАДКИ</span></span></div></div>
 						<div style="margin-left: 70px;width: 182px; height: 5px;" class="s17" id="comp-ion142jh"><div id="comp-ion142jhline" class="s17line"></div></div>					
-						<div style="margin-left: 70px; margin-bottom: 70px; width: 182px;" class="s6" id="comp-ion142ip"><p class="font_8">В нашей коллекции более 40 площадок по всей России! И все они они уникальны и единственны в своем стиле.</p></div>
+						<div style="margin-left: 70px; margin-bottom: 70px; width: 182px;" class="s6" id="comp-ion142ip"><p class="font_8">В нашей коллекции более 300 площадок по всей России! И все они они уникальны и единственны в своем стиле.</p></div>
 						
 						<div style="float: left; width: 62px; height: 66px;" title="" class="s5" id="comp-ion142j2">
 							<div style="width: 62px; height: 66px;" id="comp-ion142j2link" class="s5link">
@@ -171,9 +171,9 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<div style="margin-right: 70px; width: 233px;" class="s6" id="comp-ion142kv"><div style="font-size:16px;" class="font_2"><span style="font-size:16px;"><span style="color:#1BB7EE;">ОРИГИНАЛЬНЫЙ СКЕЙТ ПАРК</span></span></div></div>
+						<div style="margin-right: 70px; width: 233px;" class="s6" id="comp-ion142kv"><div style="font-size:16px;" class="font_2"><span style="font-size:16px;"><span style="color:#1BB7EE;">ОРИГИНАЛЬНЫЙ СКЕЙТ-ПАРК</span></span></div></div>
 						<div style="margin-right: 70px; width: 180px; height: 5px;" class="s17" id="comp-ion142lg"><div id="comp-ion142lgline" class="s17line"></div></div>
-						<div style="margin-right: 70px; margin-bottom: 36px; width: 180px;" class="s6" id="comp-ion142kp"><p class="font_8" >Мы не строим шаблонных скейт парков, а разрабатываем индивидуальные, исходя из исследования вашего региоа и потребностей катающихся</p></div>
+						<div style="margin-right: 70px; margin-bottom: 36px; width: 180px;" class="s6" id="comp-ion142kp"><p class="font_8" >Мы не строим шаблонных скейт-парков, а разрабатываем индивидуальные, исходя из исследования вашего региона и потребностей катающихся</p></div>
 						<div style="float: right; width: 60px; height: 100px;" title="" class="s5" id="comp-ion142l5">
 							<div style="width: 60px; height: 100px;" id="comp-ion142l5link" class="s5link">
 								<div id="comp-ion142l5img" class="s5img" style="position: relative; width: 60px; height: 100px;">
@@ -184,7 +184,7 @@ get_header(); ?>
 						</div>
 						<div style="margin-right: 70px; width: 266px;" class="s6" id="comp-ion142kl"><div style="font-size:16px;" class="font_2"><span style="font-size:16px;"><span style="color:#1BB7EE;">ПОСТАВКА В КРАТЧАЙШИЕ СРОКИ</span></span></div></div>
 						<div style="margin-right: 70px; width: 210px; height: 5px;" class="s17" id="comp-ion142lu"><div id="comp-ion142luline" class="s17line"></div></div>
-						<div style="margin-right: 70px; margin-bottom: 5px; width: 180px;" class="s6" id="comp-ion142kg"><p class="font_8">После поступления предоплаты, команда первоклассных строителей выезжает к вам на объект и в течение 2-3-х недель изготавливает скейт парк.</p></div>
+						<div style="margin-right: 70px; margin-bottom: 5px; width: 180px;" class="s6" id="comp-ion142kg"><p class="font_8">После поступления предоплаты, команда первоклассных строителей выезжает к вам на объект и в течение 2-3-х недель изготавливает скейт-парк.</p></div>
 						<div style="float: right; width: 60px; height: 60px;" title="" class="s5" id="comp-ion142la">
 							<div style="width: 60px; height: 60px;" id="comp-ion142lalink" class="s5link">
 								<div id="comp-ion142laimg" data-style="" class="s5img" style="position: relative; width: 60px; height: 60px;">
@@ -213,7 +213,7 @@ get_header(); ?>
 		<p style="text-align: center;">Отправьте заявку на строительство скейт-парка и бесплатный расчет проекта<br /> 
 		или получите консультацию по бесплатному телефону <strong>8-800-500-90-46</strong>.</p>
 
-		<div class="feedback_form"><?php echo do_shortcode('[contact-form-7 id="4153" title="Заказ скейт парка_нижняя форма"]'); ?></div>
+		<div class="feedback_form"><?php echo do_shortcode('[contact-form-7 id="4153" title="Заказ скейт-парка_нижняя форма"]'); ?></div>
 	
 		</div>
 

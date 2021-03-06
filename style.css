@@ -126,12 +126,7 @@ html.device-mobile-optimized.blockSiteScrolling > body {
   position: fixed;
   width: 100%; }
 
-#SITE_CONTAINER{
-	margin: 0 auto !important;
-}  
-
-#SITE_CONTAINER > .container{
-	margin: 0 auto !important;
+.container{
 	background: #fff; border: 1px solid rgba(191, 191, 191, 1);
 }
 /*  
@@ -643,7 +638,7 @@ a.wixAppsLink img {
 .s7[data-state~="shouldUseFlex"][data-state~="center"] .s7link,.s7[data-state~="shouldUseFlex"][data-state~="center"] .s7labelwrapper {-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;}
 .s7[data-state~="shouldUseFlex"][data-state~="left"] .s7link,.s7[data-state~="shouldUseFlex"][data-state~="left"] .s7labelwrapper {-webkit-box-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start;}
 .s7[data-state~="shouldUseFlex"][data-state~="right"] .s7link,.s7[data-state~="shouldUseFlex"][data-state~="right"] .s7labelwrapper {-webkit-box-pack:end;-webkit-justify-content:flex-end;justify-content:flex-end;}
-.s7link {border-radius:0;  position:absolute;top:0;right:0;bottom:0;left:0;transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;  box-shadow:0px 1px 4px 0px rgba(0,0,0,0.6);}
+.s7link {border-radius:0;  position:absolute;top:0;right:0;bottom:0;left:0;transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;  box-shadow:0px 1px 4px 0px rgba(0,0,0,0.6);text-decoration: none;}
 .s7label {font:normal normal normal 13px/1.3em 'Open Sans',sans-serif ;  transition: color 0.4s ease 0s;  color:#FFFFFF;display:inline-block;margin:calc(-1 * 0px) 0px 0;position:relative;white-space:nowrap;}
 .s7[data-state~="shouldUseFlex"] .s7label {margin:0;}
 .s7[data-disabled="false"] .s7link {background-color:rgba(27, 183, 238, 1);border:solid rgba(0, 0, 0, 1) 0px;cursor:pointer !important;}
@@ -1891,232 +1886,6 @@ h1.entry-title{
 	display: block;
 }
 
-.entry-content ul{margin-left: 16px !important;}
-
-
-
-/*
-*	----------------------------------	вставка для project.php ---------------------------------- 
-*/
-.box_item {
-  position: relative;
-  cursor: pointer;
-  
-}
-.item_content, .item_thumbnail {
-  margin: 0;
-  background: #fff;
-  border: 4px solid transparent;
-  
-  
-}
-.item_thumbnail .img {
-  overflow: hidden;
-  height: 200px;  
-}
-.item_content {
-  position: absolute;
-  left: 0;
-  top: 0;
-	overflow: hidden;
-  height: 204px;
-  width: 100%;
-  background-color: rgba(0,0,0, .5);
-  padding: 5px;
-  color: #fff;
-  
-  opacity: 0.0;
-  -webkit-transition: all 500ms ease-in-out;
-  -moz-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-  
-} 
-
-.box_item .item_content p {
-  font-size: 12px !important;
-}
-
-/*
-*           box gallery
-*   стили для появляющегося окна с галереей
-*/
-.box_gallery {
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 10;
-  width: 100%;
-  height: 100%;  
-  background-color: rgba(0, 0, 0, .8);
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-content: center;
-  opacity: 0.0; 
-  
-  -webkit-transition: opacity 300ms ease-in-out;
-  -moz-transition: opacity 300ms ease-in-out;
-  transition: opacity 300ms ease-in-out;
-}
-.box_gallery .flexslider2 {
-  background: transparent;
-  max-width: 700px;
-  width: 70%;
-  }  
-  .box_gallery .flexslider2 .slides  li {
-    height: 100%;       
-  }  
-  .box_gallery .flex-control-paging li a {
-    background: rgba(255, 255, 255, .7);
-  }
-  .box_gallery .flex-control-paging li a:hover {
-    background: rgb(255,255,255);
-  }
-  .box_gallery .flex-control-paging li a.flex-active {
-    background: rgba(255,255,255, .2);
-  }
-  /*
-  * убираем полоску на слайде при определенных размерах экрана
-  */
-  .box_gallery .flexslider2 .slides li img {
-   padding: 1px;
-  }
-/*
-*     картика загрузки при загрузки по ajax
-*/
-.loading_gif {
-  background-image: url('assets/images/loading-2.gif');
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: 50px;
-}
-
-
-/*
-*------------------ стиль для блока "ЗАГРУЗИТЬ ЕЩЁ" --------------------
-*/
-#true_loadmore{
-  background-color: #ddd; /* сервый фон */
-  border-radius: 2px; /* закругление углов */
-  display: block; /* блочный элемент, на случай, если захотите использовать <a> */
-  text-align: center; /* выравнивание текста по центру */
-  font-size: 14px; font-size: 0.875rem; /* размер шрифта */
-  font-weight: 800; /* начертание */
-  letter-spacing: 1px; /* межбуквенный интервал */
-  cursor: pointer; /* курсор мыши при наведении такой же, как при наведении на ссылку */
-  text-transform: uppercase;
-  padding: 10px 0; /* внутренние отступы сверху и снизу у кнопки */
-  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out; /* CSS-анимация*/
-  }
-  #true_loadmore:hover{
-  background-color: #767676;
-  color: #fff;
-  }
-  .page-city-title {
-    padding: 0 0 10px;
-  }
-  .page-city-title h1 {
-    text-align: center;
-  }
-  .page-city-gallery {
-    
-  }
-  .page-city-gallery-block {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 15px 35px;
-    display: flex!important;
-    align-items: flex-end;
-    height: 445px!important;
-  }
-  .page-city-gallery-block__label {
-    font-size: 18px;
-    color: #fff;
-  }
-  .page-city-gallery .slick-prev {
-    width: 40px;
-    height: 50px;
-    left: 15px;
-    z-index: 100;
-
-  }
-  .page-city-gallery .slick-prev:before {
-    font-family: "flexslider-icon";
-    font-size: 40px;
-    display: inline-block;
-    content: '\f001';
-    color: #fff;
-    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
-    opacity: 1;
-  }
-  .page-city-gallery .slick-next {
-    width: 40px;
-    height: 50px;
-    right: 15px;
-    z-index: 100;
-    -moz-transform: scaleX(-1) translate(0, -50%);
-    -o-transform: scaleX(-1) translate(0, -50%);
-    -webkit-transform: scaleX(-1) translate(0, -50%);
-    transform: scaleX(-1) translate(0, -50%);
-  }
-  .page-city-gallery .slick-next:before {
-    font-family: "flexslider-icon";
-    font-size: 40px;
-    display: inline-block;
-    content: '\f001';
-    color: #fff;
-    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
-    opacity: 1;
-  }
-  .page-city-top-content {
-    width: 100%;
-    max-width: 645px;
-    margin: 0 auto;
-    padding: 60px 15px 40px;
-  }
-  .seo-text-block__title {
-    text-align: center;
-    font-weight: 700;
-  }
-  .seo-text-block__text {
-    white-space: pre-wrap;
-  }
-  .seo-text-block__separator {
-    width: 420px;
-    margin: 45px auto;
-    height: 2px;
-    background-color: #000;
-  }
-  .seo-menu-wrapper {
-    width: 100%;
-    max-width: 750px;
-    margin: 0 auto;
-    padding-bottom: 50px;
-  }
-  .seo-menu-toggler {
-    border-bottom: 1px dashed;
-    text-decoration: none!important;
-  }
-  .seo-menu-toggler:hover {
-    text-decoration: none;
-  }
-  .seo-menu {
-    padding: 20px 10px 0;
-    overflow: hidden;
-    transition: height 0.3s ease;
-  }
-  .seo-menu li {
-    margin-bottom: 10px;
-  }
-  .seo-menu li:last-child {
-    margin-bottom: 0;
-  }
-  /*
-  * ------------------  END -----------------------------------------
-  *     конец блока стилей для стнаницы project.php
-  */
-
 .font-size-30 {
 	font-size: 30px;
 }
@@ -2209,4 +1978,10 @@ h1.entry-title{
 
 .menu a{
   color: #4d4d4d;
+}
+
+
+/*  корректировки */
+.flex-direction-nav a::before {
+  line-height: inherit!important;
 }

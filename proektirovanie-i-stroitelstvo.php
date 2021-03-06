@@ -39,18 +39,18 @@ get_header(); ?>
 
 				<div class="flexslider">
 				<ul class="slides">
-				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_896157b6124640ce8795c91fcb4da313.jpg" alt="Скейт парк проект XSA Ramps, фото 1" /><div class="s14imageItemtitle"></div></li>
-				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_ca83ad328939431690ba1ea3a145ffe4.jpg" alt="Скейт парк проект XSA Ramps, фото 2" /><div class="s14imageItemtitle"></div></li>
-				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_6337ec08e8f24a15bc5d69c91bdbc078.jpg" alt="Скейт парк проект XSA Ramps, фото 3" /><div class="s14imageItemtitle"></div></li>
-				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_a8866f1db92149d3a50faee803d6b66f.jpg" alt="Скейт парк проект XSA Ramps, фото 4" /><div class="s14imageItemtitle"></div></li>
-				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_ca498945e42b49beaba090e93012856d.jpg" alt="Скейт парк проект XSA Ramps, фото 5" /><div class="s14imageItemtitle"></div></li>
-				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_a4b05c66e3a547e58e03dfe4156549ed.jpg" alt="Скейт парк проект XSA Ramps, фото 6" /><div class="s14imageItemtitle"></div></li>
-				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_8ddcc832953a44829ea3a10a2339312a.jpg" alt="Скейт парк проект XSA Ramps, фото 7" /><div class="s14imageItemtitle"></div></li>
-				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_6b1aff87072740acb54734479be688df.jpg" alt="Скейт парк проект XSA Ramps, фото 8" /><div class="s14imageItemtitle"></div></li>
-				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_c857680a086c4cbf8b5c704b31a8ea00.jpg" alt="Скейт парк проект XSA Ramps, фото 9" /><div class="s14imageItemtitle"></div></li>
-				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_05a79bf5c5a24a48aa22e097d4413c84.jpg" alt="Скейт парк проект XSA Ramps, фото 10" /><div class="s14imageItemtitle"></div></li>
-				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_5c0529fb05844e2785f647c4d9b2a6d8.jpg" alt="Скейт парк проект XSA Ramps, фото 11" /><div class="s14imageItemtitle"></div></li>
-				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_1be55c4ab46c494e829feb1792c40fe3.jpg" alt="Скейт парк проект XSA Ramps, фото 12" /><div class="s14imageItemtitle"></div></li>
+				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_896157b6124640ce8795c91fcb4da313.jpg" alt="Скейт-парк проект XSA Ramps, фото 1" /><div class="s14imageItemtitle"></div></li>
+				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_ca83ad328939431690ba1ea3a145ffe4.jpg" alt="Скейт-парк проект XSA Ramps, фото 2" /><div class="s14imageItemtitle"></div></li>
+				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_6337ec08e8f24a15bc5d69c91bdbc078.jpg" alt="Скейт-парк проект XSA Ramps, фото 3" /><div class="s14imageItemtitle"></div></li>
+				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_a8866f1db92149d3a50faee803d6b66f.jpg" alt="Скейт-парк проект XSA Ramps, фото 4" /><div class="s14imageItemtitle"></div></li>
+				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_ca498945e42b49beaba090e93012856d.jpg" alt="Скейт-парк проект XSA Ramps, фото 5" /><div class="s14imageItemtitle"></div></li>
+				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_a4b05c66e3a547e58e03dfe4156549ed.jpg" alt="Скейт-парк проект XSA Ramps, фото 6" /><div class="s14imageItemtitle"></div></li>
+				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_8ddcc832953a44829ea3a10a2339312a.jpg" alt="Скейт-парк проект XSA Ramps, фото 7" /><div class="s14imageItemtitle"></div></li>
+				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_6b1aff87072740acb54734479be688df.jpg" alt="Скейт-парк проект XSA Ramps, фото 8" /><div class="s14imageItemtitle"></div></li>
+				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_c857680a086c4cbf8b5c704b31a8ea00.jpg" alt="Скейт-парк проект XSA Ramps, фото 9" /><div class="s14imageItemtitle"></div></li>
+				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_05a79bf5c5a24a48aa22e097d4413c84.jpg" alt="Скейт-парк проект XSA Ramps, фото 10" /><div class="s14imageItemtitle"></div></li>
+				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_5c0529fb05844e2785f647c4d9b2a6d8.jpg" alt="Скейт-парк проект XSA Ramps, фото 11" /><div class="s14imageItemtitle"></div></li>
+				 <li><img src="/wp-content/themes/xsarampas/assets/images/sliders/uslugi/bbdd64_1be55c4ab46c494e829feb1792c40fe3.jpg" alt="Скейт-парк проект XSA Ramps, фото 12" /><div class="s14imageItemtitle"></div></li>
 				</ul>
 				</div>
 
@@ -145,7 +145,7 @@ get_header(); ?>
 						
 			<br /><br /><br /><br />
 			
-			<!-- скейт парки в цифрах -->
+			<!-- скейт-парки в цифрах -->
 			<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				
@@ -165,7 +165,7 @@ get_header(); ?>
 						<div class="s25_left s25_shd"></div>
 						<div class="s25_right s25_shd"></div>
 						<div id="comp-ion142wjbg" class="s25bg"></div>
-						<div id="comp-ion142wjinlineContent" class="s25inlineContent"><div style="text-align: center;" class="s6" id="comp-ion142wp"><div class="font_2">СКЕЙТ ПАРКИ В ЦИФРАХ</div></div></div>
+						<div id="comp-ion142wjinlineContent" class="s25inlineContent"><div style="text-align: center;" class="s6" id="comp-ion142wp"><div class="font_2">СКЕЙТ-ПАРКИ В ЦИФРАХ</div></div></div>
 					</div>
 				
 				<div style="width: 230px; position: absolute; left: 55px; top: 66px;" class="s6" id="comp-ion142x0"><div style="text-align:right; font-size:28px;" class="font_2"><span class="color_11"><span style="font-size:28px;">XSA RAMPS</span></span></div>
@@ -181,7 +181,7 @@ get_header(); ?>
 				<div class="font_2" style="font-size:16px;"><span style="color:#ffffff;">строительства лучших парков</span></div>
 				</div><div style="position: absolute; left: 477px; top: 179px; width: 38px; height: 40px;" data-exact-height="40" data-content-padding-horizontal="0" data-content-padding-vertical="0" title="" class="s5" id="comp-ion142y4" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142y4"><div style="width: 38px; height: 40px;" id="comp-ion142y4link" class="s5link" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142y4.0"><div id="comp-ion142y4img" data-style="" class="s5img" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142y4.0.0" style="position: relative; width: 38px; height: 40px;"><div class="s5imgpreloader" id="comp-ion142y4imgpreloader" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142y4.0.0.0"></div><img id="comp-ion142y4imgimage" alt="" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142y4.0.0.$image" style="width: 38px; height: 40px; object-fit: contain;" src="/wp-content/themes/xsarampas/assets/images/bbdd64_118828daa26841beb8f6b550994ce6e4.png"></div></div></div><div style="width: 170px; position: absolute; left: 0px; top: 231px;" class="s6" id="comp-ion142ya" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142ya"><div class="font_2" style="font-size:50px; text-align:center;"><span style="font-size:50px;"><span class="color_11">60</span></span></div>
 				<div class="font_2" style="font-size:16px; text-align:center;"><span style="color:#ffffff;">уникальных</span></div>
-				<div class="font_2" style="font-size:16px; text-align:center;"><span style="color:#ffffff;">скейт парков</span></div>
+				<div class="font_2" style="font-size:16px; text-align:center;"><span style="color:#ffffff;">скейт-парков</span></div>
 				</div><div style="width: 182px; position: absolute; left: 188px; top: 245px;" class="s6" id="comp-ion142yf" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142yf"><div style="font-size:50px; text-align:center;" class="font_2"><span style="font-size:50px;"><span class="color_11">10000</span></span></div>
 				<div style="font-size:16px; text-align:center;" class="font_2"><font color="#ffffff"><i>человек начали&nbsp;</i></font><i style="color:rgb(255, 255, 255);">заниматься</i></div>
 				</div><div style="width: 170px; position: absolute; left: 387px; top: 233px;" class="s6" id="comp-ion142yj" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zrq61.1.$comp-ion142w9.0.$comp-ion142yj"><div style="font-size:50px; text-align:center;" class="font_2"><span style="font-size:50px;"><span class="color_11">250</span></span></div>

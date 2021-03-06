@@ -1,0 +1,52 @@
+//@import './libs/bootstrap4.3.1/bootstrap.scss';
+@import './libs/normalize8.0.1';
+//@import './libs/flexboxgrid.min';
+@import './libs/flexslider/flexslider';
+
+// модифицированный стили шрифтов для интеграции.
+//@import './utilities/fonts';
+@import './utilities/color.scss';
+@import './utilities/fonts-compatible';
+@import './common/button';
+//@import './common/shodaw_after_box';
+//@import './common/container';
+
+// menu from header and footer
+@import './common/menu_oneline';
+
+// header and footer part
+@import './componets/header';
+@import './componets/footer';
+@import './componets/slider_for_other_pages';
+@import './pages/projects';
+
+// part main page
+//@import './componets/flawless_skatepark';
+//@import './componets/social_tasks';
+//@import './componets/skatepark_in_numbers';
+//@import './componets/type_clients';
+//@import './componets/our_projects';
+//@import './componets/team';
+//@import './componets/clients';
+//@import './componets/about_skatepark';
+//@import './componets/slider_main_page';
+
+@media (min-width: 1200px) {
+  .row {
+    margin-left: -30px;
+    *zoom: 1;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .row {
+    margin-left: -20px;
+    *zoom: 1;
+  }
+}
+
+body {
+  background-image: url('../images/bg.png');
+  background-repeat: repeat;
+  background-position: center top;
+}

@@ -1,32 +1,20 @@
-<!-- slider -->
-<div class="row">
-<div class="flexslider">
-		<ul class="slides">
-				<?php
-					// переменная в которой лежит стек id картинок
-					$content = get_post_meta(get_query_var('page_id'), 'stackPic', true);
-					//	переменная в которой лежит стек caption для картинок
-					$caption = get_post_meta(get_query_var('page_id'), 'stackCaption', true);
-					//	если не задана ни одна картинка для слайда то подключим файл с фиксированным слайдом.
-					if (!$content || !$content[0]) {
-					echo get_template_part('template-parts/page/home_page_not_find_slider');		
-					}
-					else {
-					for( $i=0; $i < count($content); $i++ ) {
-					$value = $content[$i];
-					$text = $caption[$i];
-					$img_object = wp_get_attachment_image_src($value, 'large');
-					$url = $img_object[0];						
-					?>
-				<li>
-					<img src="<?php echo $url;?>" alt="" />
-					<div class="s14imageItemtitle"><?php echo $text; ?> </div>
-				</li>
-				<?php
-					} 
-					}
-					?>
-		</ul>
+<?php
+$main_slider = new UtilsMetaBox(SLIDER);
+$list_images = $main_slider->get_array_fields('images', false);
+?>
+
+<!-- main slider -->
+<?php if (!empty($list_images)) : ?>
+	<div class="row slider_main_page">
+		<div>
+			<ul class="slider_main_page__slider">
+				<?php foreach ($list_images as $id_image) : ?>
+					<li>
+						<?php echo $main_slider->get_html_tag_image($id_image, 'full', 'eager'); ?>
+						<div class="s14imageItemtitle"><?php echo wp_get_attachment_caption($id_image); ?> </div>
+					</li>
+				<?php endforeach; ?>
+			</ul>
+		</div>
 	</div>
-	</div>
-	
+<?php endif; ?>

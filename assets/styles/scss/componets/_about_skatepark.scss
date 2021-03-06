@@ -1,0 +1,272 @@
+.about_skatepark {
+  margin: 0 -15px;
+
+  h3 {
+    font-size: 3.2rem;
+    font-weight: bold;
+    line-height: 4rem;
+    @extend .font-helvetica;
+  }
+
+  p {
+    font-size: 1.8rem;
+    color: $grayDark;
+    @extend .font-helvetica;
+  }
+
+  &__title {
+    position: relative;
+    min-height: 500px;
+    background: url(/wp-content/themes/xsarampas/assets/images/main_1.jpg);
+    background-size: cover;
+    background-size: auto;
+
+    h2 {
+      position: absolute;
+      top: 30%;
+      left: 52%;
+      width: 295px;
+      font-size: 3.2rem;
+      font-weight: bold;
+      line-height: 4.5rem;
+      color: $white;
+      @extend .font-helvetica;
+    }
+
+    div {
+      position: absolute;
+      top: 18%;
+      right: 80px;
+      display: flex;
+      flex-direction: column;
+
+      img {
+        max-width: 80px;
+      }
+    }
+  }
+
+  &__slogan {
+    max-width: 616px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: justify;
+  }
+
+  &__line-before,
+  &__line-after {
+    max-width: 455px;
+    padding: 46px 0;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+
+    h3 {
+      font-size: 3.2rem;
+      font-weight: bold;
+      line-height: 4rem;
+      @extend .font-helvetica;
+    }
+  }
+
+  &__line-before {
+    margin-top: 60px;
+    border-top: 3px solid $black;
+  }
+
+  &__line-after {
+    margin-bottom: 60px;
+    border-bottom: 3px solid $black;
+  }
+
+  &__card {
+    display: flex;
+    margin-bottom: 119px;
+
+    div {
+      flex-basis: 50%;
+      width: 50%;
+    }
+
+    &-img {
+      height: 250px;
+      padding-right: 14px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    &-desc {
+      padding-right: 85px;
+      padding-left: 47px;
+      text-align: left;
+
+      h3 {
+        margin: 0;
+        margin-bottom: 25px;
+      }
+
+      p {
+        position: relative;
+        font-size: 2rem;
+        line-height: 2.8rem;
+      }
+
+      p:last-of-type::after {
+        position: absolute;
+        bottom: -14px;
+        left: 0;
+        width: 72px;
+        height: 3px;
+        content: '';
+        background-color: $black;
+      }
+    }
+  }
+
+  &__card:nth-of-type(odd) {
+    flex-direction: row-reverse;
+
+    .about_skatepark__card-desc {
+      padding-right: 75px;
+      padding-left: 85px;
+      text-align: right;
+
+      p:last-of-type::after {
+        right: 0;
+        left: auto;
+      }
+    }
+
+    .about_skatepark__card-img {
+      padding-right: 0;
+      padding-left: 14px;
+    }
+  }
+
+  &__slogan-2 {
+    padding: 60px 0;
+    background-color: $grayBackground;
+
+    div {
+      width: 700px;
+      margin: 0 auto;
+      text-align: center;
+
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  &__underline {
+    position: relative;
+    padding-bottom: 120px;
+
+    &::after {
+      position: absolute;
+      right: 13%;
+      bottom: 0;
+      left: 13%;
+      height: 3px;
+      content: '';
+      background-color: $black;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .about_skatepark {
+    &__title {
+      h2 {
+        top: 59%;
+        left: 5%;
+      }
+    }
+
+    &__card {
+      &-desc {
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+    }
+
+    &__card:nth-of-type(odd) {
+      .about_skatepark__card-desc {
+        padding-right: 20px;
+        padding-left: 20px;
+  
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .about_skatepark {
+    &__card {
+      flex-wrap: wrap;
+
+      div {
+        flex-basis: 100%;
+      }
+    }
+
+    &__card-desc {
+      h3 {
+        margin-top: 20px;
+        text-align: left;
+      }
+
+      p {
+        text-align: left;
+      }
+
+      p:last-of-type::after {
+        display: none;
+      }
+    }
+
+    &__card-img {
+      padding: 0;
+    }
+
+    &__card:nth-of-type(odd) {
+      .about_skatepark__card-img {
+        padding: 0;
+      }
+    }
+
+    &__slogan {
+      padding: 0 20px;
+    }
+
+    &__slogan-2 {
+      div {
+        width: 100%;
+        padding: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .about_skatepark {
+    &__title {
+      background-position: -180px 0;
+      h2 {
+        top: 59%;
+        left: 5%;
+        width: 90%;
+        font-size: 3rem;
+      }
+
+      div {
+        display: none;
+      }
+    }
+  }
+}
+

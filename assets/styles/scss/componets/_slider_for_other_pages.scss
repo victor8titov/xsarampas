@@ -1,0 +1,10 @@
+.flexslider {
+  max-height: 430px;
+  overflow: hidden;
+
+  .flex-direction-nav {
+    a {
+      min-height: 50px;
+    }
+  }
+}

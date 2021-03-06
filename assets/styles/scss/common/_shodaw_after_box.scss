@@ -1,0 +1,29 @@
+.shadow_after_box {
+  position: absolute;
+  right: 100px;
+  bottom: 0;
+  left: 100px;
+  height: 29px;
+  background-image: url(/wp-content/themes/xsarampas/assets/images/fade_line.png);
+  background-position: 0 58px;
+
+  &::before,
+  &::after {
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 29px;
+    content: "";
+    background-image: url(/wp-content/themes/xsarampas/assets/images/fade_line.png);
+  }
+
+  &::before {
+    left: -100px;
+    background-position: 0 -87px;
+  }
+
+  &::after {
+    right: -100px;
+    background-position: 100% -87px;
+  }
+}

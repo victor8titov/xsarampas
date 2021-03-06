@@ -25,7 +25,7 @@ function my_title($title) {
 }
 
 function my_description($description) {
-	$description = 'Статьи о строительстве и проектировании скейт парков компанией XSA Ramps';
+	$description = 'Статьи о строительстве и проектировании скейт-парков компанией XSA Ramps';
     return $description;
 }
 
