@@ -23,8 +23,17 @@
    });
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/28627086" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-
 <!-- /Yandex.Metrika counter -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-94087027-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-94087027-1');
+</script>
 
 <meta name="p:domain_verify" content="f6a5049cd2ee4724bf4c4eeb6dfa8c0e"/>
 <meta name="yandex-verification" content="7ddc5666689539ae" />
