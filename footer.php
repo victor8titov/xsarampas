@@ -98,7 +98,7 @@ for (i = 0; i < acc.length; i++) {
 
 <script type="text/javascript">
    document.addEventListener( 'wpcf7mailsent', function( event ) {
-      console.log('-----::::::wpcf7mailsent', event, yaCounter28627086, ga, ym)
+      console.log('-----::::::wpcf7mailsent', event, ga, ym)
       var formId = event.detail.contactFormId
 
       if ( '4153' === formId || '268' === formId ) {
@@ -108,15 +108,15 @@ for (i = 0; i < acc.length; i++) {
    });
 
    document.addEventListener( 'wpcf7invalid', function( event ) {
-      console.log('-----::::::wpcf7invalid', event, yaCounter28627086, ga, ym)
+      console.log('-----::::::wpcf7invalid', event, ga, ym)
    });
 
    document.addEventListener( 'wpcf7submit', function( event ) {
-      console.log('-----::::::wpcf7submit', event, yaCounter28627086, ga, ym)
+      console.log('-----::::::wpcf7submit', event, ga, ym)
    });
    
    document.addEventListener( 'wpcf7mailfailed', function( event ) {
-      console.log('-----::::::wpcf7mailfailed', event, yaCounter28627086, ga, ym)
+      console.log('-----::::::wpcf7mailfailed', event, ga, ym)
    });
 </script>
 
