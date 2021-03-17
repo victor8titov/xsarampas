@@ -98,25 +98,11 @@ for (i = 0; i < acc.length; i++) {
 
 <script type="text/javascript">
    document.addEventListener( 'wpcf7mailsent', function( event ) {
-      console.log('-----::::::wpcf7mailsent', event,  ym)
       var formId = event.detail.contactFormId
 
       if ( '4153' === formId || '268' === formId ) {
          ym(28627086,'reachGoal','order')
-         //ga('send', 'event', 'feedback', 'order');
       }
-   });
-
-   document.addEventListener( 'wpcf7invalid', function( event ) {
-      console.log('-----::::::wpcf7invalid', event,  ym)
-   });
-
-   document.addEventListener( 'wpcf7submit', function( event ) {
-      console.log('-----::::::wpcf7submit', event,  ym)
-   });
-   
-   document.addEventListener( 'wpcf7mailfailed', function( event ) {
-      console.log('-----::::::wpcf7mailfailed', event,  ym)
    });
 </script>
 
