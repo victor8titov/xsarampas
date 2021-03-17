@@ -100,7 +100,7 @@ for (i = 0; i < acc.length; i++) {
    document.addEventListener( 'wpcf7mailsent', function( event ) {
       var formId = event.detail.contactFormId
       console.log('wpcf7mailsent', event)
-      if ( '4153' === formId || '268' === formId ) {
+      if ( 4153 === formId || 268 === formId ) {
          console.log('wpcf7mailsent--- send and run script',ym)
          ym(28627086,'reachGoal','order')
       }
