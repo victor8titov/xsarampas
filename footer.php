@@ -98,9 +98,11 @@ for (i = 0; i < acc.length; i++) {
 
 <script type="text/javascript">
    document.addEventListener( 'wpcf7mailsent', function( event ) {
+      console.log('::::::', event, yaCounter28627086, ga)
       var formId = event.detail.contactFormId
+
       if ( '4153' === formId || '268' === formId ) {
-         yaCounter28627086.reachGoal('order');
+         ym(28627086,'reachGoal','order')
          ga('send', 'event', 'feedback', 'order');
       }
    });
